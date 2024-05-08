@@ -1,0 +1,42 @@
+{
+    "status": true,
+    "data_array": [
+      {
+        "isActive": true,
+        "isDeleted": false,
+        "unitId": "1234567891234",
+        "productCode": "E0009",
+        "dereservationDate": "2021-02-02 9:25:44"
+      },
+      {
+        "isActive": true,
+        "isDeleted": false,
+        "unitId": "1234567891235",
+        "productCode": "E0019",
+        "dereservationDate": "2021-03-02 9:25:44"
+      },
+      {
+        "isActive": true,
+        "isDeleted": false,
+        "unitId": "1234567891236",
+        "productCode": "E0017",
+        "dereservationDate": "2021-04-04 9:25:44"
+      },
+      {
+        "isActive": true,
+        "isDeleted": false,
+        "unitId": "456123",
+        "productCode": "E0027",
+        "dereservationDate": "2021-02-07 7:34:44"
+      },
+      {
+        "isActive": true,
+        "isDeleted": false,
+        "unitId": "561234",
+        "productCode": "E0001",
+        "dereservationDate": "2021-02-17 2:04:44"
+      }
+      
+    ],
+    "error": null
+  }

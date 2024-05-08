@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "alertId": "BSA0001",
+      "type": "Email"
+    },
+    {
+      "alertId": "BSA0002",
+      "type": "SMS"
+    },
+    {
+      "alertId": "BSA0003",
+      "type": "Popup"
+    }
+  ]
+}

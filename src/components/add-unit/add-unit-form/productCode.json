@@ -1,0 +1,62 @@
+{
+  "status": true,
+  "data_array": [
+    {
+      "_id": "60191a98b8bded27e4139caa",
+      "code": "04390",
+      "desc": "Red Cells In SAG-M Leucocyte Depleted",
+      "isbtCode": "E8770V00",
+      "isbtDesc": "RED CELLS In SAG-M Leucocyte Depleted"
+    },
+    {
+      "_id": "60191a98b8bded27e4139cab",
+      "code": "04880",
+      "desc": "Red Cells Leucocyte DepletedWashed In SAG-M",
+      "isbtCode": "E8812V00",
+      "isbtDesc": "RED CELLS Washed In SAG-M Leucocyte Depleted"
+    },
+    {
+      "_id": "60191a98b8bded27e4139cac",
+      "code": "05380",
+      "desc": "Red Cells Irradiated SAG-M Leucocyte Depleted",
+      "isbtCode": "E8829V00",
+      "isbtDesc": "RED CELLS Irradiated In SAG-M Leucocyte Depleted"
+    },
+    {
+      "_id": "60191a98b8bded27e4139cad",
+      "code": "05382",
+      "desc": "Red Cells Irradiated In SAG-M Leucocyte Depleted Intrauterine",
+      "isbtCode": "E8827V00",
+      "isbtDesc": "RED CELLS Intrauterine Irradiated In SAG-M Leucocyte Depleted"
+    },
+    {
+      "_id": "60191a98b8bded27e4139cae",
+      "code": "05383",
+      "desc": "0 Red Cells Irradiated SAG-M Leucocyte Depleted Neonatal",
+      "isbtCode": "E8828V00",
+      "isbtDesc": "0 Red Cells Irradiated SAG-M Leucocyte Depleted Neonatal"
+    },
+    {
+      "_id": "60191a98b8bded27e4139caf",
+      "code": "05880",
+      "desc": "Red Cells Irradiated SAG-M Leucocyte Depleted Washed",
+      "isbtCode": "E8976V00",
+      "isbtDesc": "Red Cells Irradiated SAG-M Leucocyte Depleted Washed"
+    },
+    {
+      "_id": "60191a98b8bded27e4139cag",
+      "code": "34381",
+      "desc": "Red Cells In SAG-M 1 Of 4 Leucocyte Depleted",
+      "isbtCode": "E8770VA0",
+      "isbtDesc": "Red Cells In SAG-M 1 Of 4 Leucocyte Depleted"
+    },
+    {
+      "_id": "60191a98b8bded27e4139cah",
+      "code": "34382",
+      "desc": "Red Cells In SAG-M 2 Of 4 Leucocyte Depleted",
+      "isbtCode": "E8770VB0",
+      "isbtDesc": "Red Cells In SAG-M 2 Of 4 Leucocyte Depleted"
+    }
+  ],
+  "error": null
+}

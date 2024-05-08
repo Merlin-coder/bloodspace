@@ -1,0 +1,4436 @@
+{
+    "status": true,
+    "message": "Successfully login",
+    "data": {
+      "token": "U2FsdGVkX185TFdZjQ+vkdlMoornnyLm81OTfP9dE1kph1XO+kLcO4hEQIs9yPIXEvfzHDKN8AL3deOZdWKgZzWj2pJpfXzrA/QfcVDEVB/LRz8e3dF85KrNGLxdjWZstmIvVXxOKvBkGKg1v5pGfWxJCxjDhR8XHnLlUzeLfOWc+BcyMkHZK2i4z85sCAphq/fgFAVyHEMmiDwvPggsiWmf6UPvw7tn2xbUNS99LTWd9cdVk67fOVESpmu9JSiZCFUFBIDB2jh5U2/+4j8+q8DrnWKM3ZrTJgDlTxi1ZpNI7oMYwApGPY7oMcSaKsaVhBdmKJLUqDfKasps+9Z+Z3mPEmqwh6JF31zzDBajN9jemOI7SlANb0NxrwOcllhBlmF+hIkcdWpQJOxyhhyD6NVto2L4Gr/mMTcDQ5Ag0ZSX6tElpBras1v2OoL0Wx5R/wUbFxAJ3fzWUgFfHmwWmjqRsQGYyTJxc4/OpMxdbOU=",
+      "user": {
+        "_id": "61a8abfd8faa5f0eaf5d9104",
+        "username": "hari",
+        "firstName": "Harika",
+        "lastName": "Indukuri",
+        "roleId": "611a8110ede051516a94a4a0",
+        "clientId": "61cd2d1f0c7762282c061841",
+        "authorityId": "617a49b9f3cd7d25585edcb7",
+        "useraccessrole-code": "BS-UAR-1008"
+      },
+      "userAccess": [
+        {
+          "_id": "61d6ad8943c31a5bb8f15c0f",
+          "name": "Remote Fridge",
+          "menu-multiple": [
+            "61d59bf4434c9746880c69e6",
+            "61d6a83f43c31a5bb8f15c0d",
+            "61d6a8d243c31a5bb8f15c0e"
+          ],
+          "useraccessroleId": "61d6b7a2a6545541347bdeb5",
+          "drawerId": "61b6e54fc463c939cc9db45b",
+          "accessconfig-multiple": [
+            "61d5812714a89953085fdb5b",
+            "61d59b72434c9746880c69e4",
+            "61d59bb7434c9746880c69e5",
+            "61d6a59243c31a5bb8f15c07",
+            "61d6a5eb43c31a5bb8f15c08",
+            "61d6a61a43c31a5bb8f15c09",
+            "61d6a68743c31a5bb8f15c0a",
+            "61d6a6a843c31a5bb8f15c0b",
+            "61d6a6f143c31a5bb8f15c0c"
+          ],
+          "isVisible": 1,
+          "fullAccess": 1,
+          "isActive": 1,
+          "menuId": [
+            {
+              "_id": "61d59bf4434c9746880c69e6",
+              "name": "Return Units",
+              "drawerId": "61b6e54fc463c939cc9db45b",
+              "allowReturnUnits": [
+                "1",
+                "BS-ACO-1040"
+              ],
+              "allowReturnBatchProducts": [
+                "1",
+                "BS-ACO-1041"
+              ],
+              "fullAccess": 1,
+              "isActive": 1,
+              "code": "BS-54b02fe2-1dad-419c-95ee-789e4c9e513b-758",
+              "createdBy": "612dfbb7ea986e727df1c153",
+              "updatedBy": "612dfbb7ea986e727df1c153",
+              "createdAt": "2022-01-05T13:24:04.468Z",
+              "updatedAt": "2022-01-05T13:24:04.468Z",
+              "isSync": false,
+              "drawer-code": "BS-e18a1354-7c25-441f-a7cd-2b144a6258a9-97"
+            },
+            {
+              "_id": "61d6a83f43c31a5bb8f15c0d",
+              "name": "Remove Units",
+              "drawerId": "61b6e54fc463c939cc9db45b",
+              "AllowSearchUnitsByMRNandName": [
+                "1",
+                "BS-ACO-1042"
+              ],
+              "searchunitsbyMRNnumber": [
+                "1",
+                "BS-ACO-1043"
+              ],
+              "allowToAddBatchProductToBeRemove": [
+                "1",
+                "BS-ACO-1044"
+              ],
+              "fullAccess": 1,
+              "isActive": 1,
+              "code": "BS-5fab0a27-42c9-4d53-ad89-bec12f321709-759",
+              "createdBy": "612dfbb7ea986e727df1c153",
+              "updatedBy": "612dfbb7ea986e727df1c153",
+              "createdAt": "2022-01-06T08:28:47.834Z",
+              "updatedAt": "2022-01-06T08:28:47.834Z",
+              "isSync": false,
+              "drawer-code": "BS-e18a1354-7c25-441f-a7cd-2b144a6258a9-97"
+            },
+            {
+              "_id": "61d6a8d243c31a5bb8f15c0e",
+              "name": "Batch Products",
+              "drawerId": "61b6e54fc463c939cc9db45b",
+              "allowToSeeCurrentStock": [
+                "1",
+                "BS-ACO-1045"
+              ],
+              "allowSearchBatchProductsByMRNNumber": [
+                "1",
+                "BS-ACO-1047"
+              ],
+              "allowToAddRecipientAndAssignBatchProduct": [
+                "1",
+                "BS-ACO-1048"
+              ],
+              "fullAccess": 1,
+              "isActive": 1,
+              "code": "BS-7df31f71-2b48-41e9-a2ec-df6efd66cc41-760",
+              "createdBy": "612dfbb7ea986e727df1c153",
+              "updatedBy": "612dfbb7ea986e727df1c153",
+              "createdAt": "2022-01-06T08:31:14.274Z",
+              "updatedAt": "2022-01-06T08:47:16.499Z",
+              "isSync": false,
+              "allowSearchBatchProductsByMRNandnameanddob": [
+                "1",
+                "BS-ACO-1046"
+              ],
+              "drawer-code": "BS-e18a1354-7c25-441f-a7cd-2b144a6258a9-97"
+            }
+          ],
+          "accessconfigId": [
+            "61d6a68743c31a5bb8f15c0a",
+            "61d5812714a89953085fdb5b",
+            "61d59b72434c9746880c69e4",
+            "61d59bb7434c9746880c69e5",
+            "61d6a59243c31a5bb8f15c07",
+            "61d6a5eb43c31a5bb8f15c08",
+            "61d6a61a43c31a5bb8f15c09",
+            "61d6a6a843c31a5bb8f15c0b",
+            "61d6a6f143c31a5bb8f15c0c"
+          ],
+          "code": "BS-87b89e2a-f542-46af-823e-2f2d649d4992-192",
+          "createdBy": "612dfbb7ea986e727df1c153",
+          "updatedBy": "612dfbb7ea986e727df1c153",
+          "createdAt": "2022-01-06T08:51:21.627Z",
+          "updatedAt": "2022-01-06T08:51:21.627Z",
+          "isSync": false,
+          "drawer-code": "BS-e18a1354-7c25-441f-a7cd-2b144a6258a9-97"
+        },
+        {
+          "_id": "61d6b7b6a6545541347bdefa",
+          "name": "Access Control",
+          "useraccessroleId": "61d6b7a2a6545541347bdeb5",
+          "menuId": [
+            {
+              "_id": "61d6b7b6a6545541347bdebd",
+              "drawer-code": "BS-DR-0079",
+              "name": "Access Control",
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "code": "BS-f8ed462a-3ff3-42dd-8ad3-c7dec2671950-761",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            }
+          ],
+          "isVisible": 1,
+          "drawer-code": "BS-DR-0079",
+          "accessconfigId": [
+            "617cf069b69cc5759d602292",
+            "617cf069b69cc5759d60229a"
+          ],
+          "code": "BS-4ea610c9-ec9c-464d-b990-37c09efdb51f-193",
+          "createdBy": "614d660e219d32260e645a45",
+          "updatedBy": "614d660e219d32260e645a45",
+          "createdAt": "2022-01-06T09:34:46.371Z",
+          "updatedAt": "2022-01-06T09:34:46.371Z",
+          "isActive": 1
+        },
+        {
+          "_id": "61d6b7b6a6545541347bdefb",
+          "name": "Assoicate Batch",
+          "useraccessroleId": "61d6b7a2a6545541347bdeb5",
+          "menuId": [
+            {
+              "_id": "61d6b7b6a6545541347bdeb6",
+              "drawer-code": "BS-8b3f7244-ac64-4bc5-80bd-ceb1218398ea-92",
+              "name": "Assoicate Batch",
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-ccac3deb-7384-414e-aaa5-1cabda1ead07-761",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.222Z",
+              "updatedAt": "2022-01-06T09:34:46.222Z",
+              "isActive": 1
+            }
+          ],
+          "isVisible": 1,
+          "drawer-code": "BS-8b3f7244-ac64-4bc5-80bd-ceb1218398ea-92",
+          "accessconfigId": [
+            "617cf069b69cc5759d602292",
+            "617cf069b69cc5759d602293",
+            "617cf069b69cc5759d602294",
+            "617cf069b69cc5759d602295",
+            "617cf069b69cc5759d602296",
+            "617cf069b69cc5759d602299",
+            "617cf069b69cc5759d60229f"
+          ],
+          "code": "BS-4a2bddd4-487c-411b-bf89-152438a255e1-194",
+          "createdBy": "614d660e219d32260e645a45",
+          "updatedBy": "614d660e219d32260e645a45",
+          "createdAt": "2022-01-06T09:34:46.371Z",
+          "updatedAt": "2022-01-06T09:34:46.371Z",
+          "isActive": 1
+        },
+        {
+          "_id": "61d6b7b6a6545541347bdefc",
+          "name": "Grouping",
+          "useraccessroleId": "61d6b7a2a6545541347bdeb5",
+          "menuId": [
+            {
+              "_id": "61d6b7b6a6545541347bdeb7",
+              "drawer-code": "BS-DR-0020",
+              "name": "Product Group",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-a6843df7-1564-4bd3-863c-8850e8df0f03-761",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.222Z",
+              "updatedAt": "2022-01-06T09:34:46.222Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdeb8",
+              "drawer-code": "BS-DR-0021",
+              "name": "User Group",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-280de0e7-3236-4e49-9aa4-cbc9503e5879-762",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.222Z",
+              "updatedAt": "2022-01-06T09:34:46.222Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdeb9",
+              "drawer-code": "BS-DR-0022",
+              "name": "Device Group",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-ba0db199-d90a-4b6d-98e0-c4c2449c7d06-763",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.222Z",
+              "updatedAt": "2022-01-06T09:34:46.222Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdeba",
+              "drawer-code": "BS-DR-0052",
+              "name": "Storage Group",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-dc75e332-f250-41be-bfe9-65517dbcc22a-764",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.222Z",
+              "updatedAt": "2022-01-06T09:34:46.222Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdebb",
+              "drawer-code": "BS-DR-0053",
+              "name": "Funtional Group",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-5f72d1b3-3490-4dfa-89a3-d14f4b680dd0-765",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.222Z",
+              "updatedAt": "2022-01-06T09:34:46.222Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdebc",
+              "drawer-code": "BS-DR-0054",
+              "name": "Process group",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-e809f226-c3c7-4dcf-ae05-3d9c57ce4ff3-766",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.222Z",
+              "updatedAt": "2022-01-06T09:34:46.222Z",
+              "isActive": 1
+            }
+          ],
+          "isVisible": 1,
+          "drawer-code": "BS-DR-0026",
+          "accessconfigId": [
+            "617cf069b69cc5759d602299",
+            "617cf069b69cc5759d602292",
+            "617cf069b69cc5759d602294",
+            "617cf069b69cc5759d602295",
+            "617cf069b69cc5759d602293",
+            "617cf069b69cc5759d602296",
+            "617cf069b69cc5759d602297",
+            "617cf069b69cc5759d602298",
+            "617cf069b69cc5759d60229a",
+            "617cf069b69cc5759d60229b",
+            "617cf069b69cc5759d60229c",
+            "617cf069b69cc5759d60229d",
+            "617cf069b69cc5759d60229e",
+            "617cf069b69cc5759d60229f"
+          ],
+          "code": "BS-33a12143-65e5-4f67-88a0-2a1f12afad3b-195",
+          "createdBy": "614d660e219d32260e645a45",
+          "updatedBy": "614d660e219d32260e645a45",
+          "createdAt": "2022-01-06T09:34:46.371Z",
+          "updatedAt": "2022-01-06T09:34:46.371Z",
+          "isActive": 1
+        },
+        {
+          "_id": "61d6b7b6a6545541347bdefd",
+          "name": "Units in Stock",
+          "useraccessroleId": "61d6b7a2a6545541347bdeb5",
+          "menuId": [
+            {
+              "_id": "61d6b7b6a6545541347bded5",
+              "drawer-code": "BS-DR-0068",
+              "name": "Units in Stock",
+              "searchByProductGroup": [
+                "1",
+                "BS-ACO-1015"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "details": [
+                "1",
+                "BS-AC0-1016"
+              ],
+              "code": "BS-56ac389e-2f0a-4016-a5e4-e6ae02ff82c5-762",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.238Z",
+              "updatedAt": "2022-01-06T09:34:46.238Z",
+              "isActive": 1
+            }
+          ],
+          "isVisible": 1,
+          "drawer-code": "BS-DR-0068",
+          "accessconfigId": [
+            "617cf069b69cc5759d60228c",
+            "617cf069b69cc5759d602292",
+            "617cf069b69cc5759d60229f",
+            null
+          ],
+          "code": "BS-ed945590-9856-4ff9-9850-5f55e67b796b-196",
+          "createdBy": "614d660e219d32260e645a45",
+          "updatedBy": "614d660e219d32260e645a45",
+          "createdAt": "2022-01-06T09:34:46.371Z",
+          "updatedAt": "2022-01-06T09:34:46.371Z",
+          "isActive": 1
+        },
+        {
+          "_id": "61d6b7b6a6545541347bdefe",
+          "name": "Request History",
+          "useraccessroleId": "61d6b7a2a6545541347bdeb5",
+          "menuId": [
+            {
+              "_id": "61d6b7b6a6545541347bdee0",
+              "drawer-code": "BS-DR-0080",
+              "name": "Request History",
+              "triggerLED": [
+                "1",
+                "BS-ACO-1019"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "code": "BS-32a1ed19-dd19-47ab-95a9-484a5cbf283a-761",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.224Z",
+              "updatedAt": "2022-01-06T09:34:46.224Z",
+              "isActive": 1
+            }
+          ],
+          "isVisible": 1,
+          "drawer-code": "BS-DR-0080",
+          "accessconfigId": [
+            "617cf069b69cc5759d602290",
+            "617cf069b69cc5759d602292",
+            "617cf069b69cc5759d602296",
+            "617cf069b69cc5759d602297",
+            "617cf069b69cc5759d602298",
+            "617cf069b69cc5759d602299",
+            "617cf069b69cc5759d602295",
+            "617cf069b69cc5759d602294",
+            "617cf069b69cc5759d60229f",
+            "617cf069b69cc5759d602293"
+          ],
+          "code": "BS-eb506772-1cef-44e1-9020-a8b6e1420f1d-197",
+          "createdBy": "614d660e219d32260e645a45",
+          "updatedBy": "614d660e219d32260e645a45",
+          "createdAt": "2022-01-06T09:34:46.371Z",
+          "updatedAt": "2022-01-06T09:34:46.371Z",
+          "isActive": 1
+        },
+        {
+          "_id": "61d6b7b6a6545541347bdeff",
+          "name": "Transactions",
+          "useraccessroleId": "61d6b7a2a6545541347bdeb5",
+          "menuId": [
+            {
+              "_id": "61d6b7b6a6545541347bded3",
+              "drawer-code": "BS-DR-0076",
+              "name": "Issued",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "triggerLED": [
+                "1",
+                "BS-ACO-1019"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "receive": [
+                "1",
+                "BS-ACO-1039"
+              ],
+              "code": "BS-ef21bf41-943a-4312-922e-839c25512ea6-761",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.225Z",
+              "updatedAt": "2022-01-06T09:34:46.225Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bded4",
+              "drawer-code": "BS-DR-0077",
+              "name": "Received",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "triggerLED": [
+                "1",
+                "BS-ACO-1019"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "receive": [
+                "1",
+                "BS-ACO-1039"
+              ],
+              "code": "BS-b9d60502-1567-4b26-83da-2a096b088a47-762",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.225Z",
+              "updatedAt": "2022-01-06T09:34:46.225Z",
+              "isActive": 1
+            }
+          ],
+          "isVisible": 1,
+          "drawer-code": "BS-DR-0078",
+          "accessconfigId": [
+            "617cf069b69cc5759d602299",
+            "617cf069b69cc5759d602290",
+            "617cf069b69cc5759d602292",
+            "617cf069b69cc5759d602293",
+            "617cf069b69cc5759d602295",
+            "617cf069b69cc5759d602296",
+            "617cf069b69cc5759d60229f",
+            "617cf069b69cc5759d6022a4"
+          ],
+          "code": "BS-456b0393-6e7f-46e4-91dd-cdb348f99495-198",
+          "createdBy": "614d660e219d32260e645a45",
+          "updatedBy": "614d660e219d32260e645a45",
+          "createdAt": "2022-01-06T09:34:46.371Z",
+          "updatedAt": "2022-01-06T09:34:46.371Z",
+          "isActive": 1
+        },
+        {
+          "_id": "61d6b7b6a6545541347bdf00",
+          "name": "Request Unit",
+          "useraccessroleId": "61d6b7a2a6545541347bdeb5",
+          "menuId": [
+            {
+              "_id": "61d6b7b6a6545541347bdef7",
+              "drawer-code": "BS-DR-0045",
+              "name": "Request Unit",
+              "searchByName": [
+                "1",
+                "BS-ACO-1009"
+              ],
+              "searchByMRN": [
+                "1",
+                "BS-ACO-1010"
+              ],
+              "searchByNameAndDOB": [
+                "1",
+                "BS-ACO-1011"
+              ],
+              "searchByAll": [
+                "1",
+                "BS-ACO-1012"
+              ],
+              "actions": [
+                "1",
+                "BS-ACO-1017"
+              ],
+              "pullOutRequest": [
+                "1",
+                "BS-ACO-1018"
+              ],
+              "triggerLED": [
+                "1",
+                "BS-ACO-1019"
+              ],
+              "searchByUnit": [
+                "1",
+                "BS-ACO-1020"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-4cb31aa0-f4f3-4695-bdce-a22e0bd59f7b-761",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.237Z",
+              "updatedAt": "2022-01-06T09:34:46.237Z",
+              "isActive": 1
+            }
+          ],
+          "isVisible": 1,
+          "drawer-code": "BS-DR-0045",
+          "accessconfigId": [
+            "617cf069b69cc5759d602286",
+            "617cf069b69cc5759d602287",
+            "617cf069b69cc5759d602288",
+            "617cf069b69cc5759d602289",
+            "617cf069b69cc5759d60228e",
+            "617cf069b69cc5759d60228f",
+            "617cf069b69cc5759d602290",
+            "617cf069b69cc5759d602291",
+            "617cf069b69cc5759d602292",
+            "617cf069b69cc5759d602294",
+            "617cf069b69cc5759d602295",
+            "617cf069b69cc5759d602296",
+            "617cf069b69cc5759d602297",
+            "617cf069b69cc5759d602298",
+            "617cf069b69cc5759d60229c",
+            "617cf069b69cc5759d60229e",
+            "617cf069b69cc5759d60229f"
+          ],
+          "code": "BS-15066779-7983-4a43-a6a4-e04412fe7fd5-199",
+          "createdBy": "614d660e219d32260e645a45",
+          "updatedBy": "614d660e219d32260e645a45",
+          "createdAt": "2022-01-06T09:34:46.371Z",
+          "updatedAt": "2022-01-06T09:34:46.371Z",
+          "isActive": 1
+        },
+        {
+          "_id": "61d6b7b6a6545541347bdf01",
+          "name": "Reports",
+          "useraccessroleId": "61d6b7a2a6545541347bdeb5",
+          "menuId": [
+            {
+              "_id": "61d6b7b6a6545541347bdee1",
+              "drawer-code": "BS-DR-0040",
+              "name": "Patient History",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-a86e8040-f3cc-4252-b5db-a31c3c6dff59-761",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.227Z",
+              "updatedAt": "2022-01-06T09:34:46.227Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdee2",
+              "drawer-code": "BS-DR-0044",
+              "name": "Device History",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-f17c4195-764e-4f16-98a2-57ed8651c966-762",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.227Z",
+              "updatedAt": "2022-01-06T09:34:46.227Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdee3",
+              "drawer-code": "BS-DR-0043",
+              "name": "User History",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-a80719b6-594c-4a5d-a6e5-ec812c2f6f8b-763",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.227Z",
+              "updatedAt": "2022-01-06T09:34:46.227Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdee4",
+              "drawer-code": "BS-DR-0013",
+              "name": "Activity History",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-0f0801d1-babd-4b03-bfc9-e122f2df0bcf-764",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.227Z",
+              "updatedAt": "2022-01-06T09:34:46.227Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdee5",
+              "drawer-code": "BS-DR-0014",
+              "name": "Fated",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-ab66f18e-15e9-4505-81b7-903f2a78c2b1-765",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.227Z",
+              "updatedAt": "2022-01-06T09:34:46.227Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdee6",
+              "drawer-code": "BS-DR-0015",
+              "name": "Dereservation",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-472d5a81-3da1-43d1-980b-f75045b7ac65-766",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.227Z",
+              "updatedAt": "2022-01-06T09:34:46.227Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdee7",
+              "drawer-code": "BS-DR-0016",
+              "name": "Assigned",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-109097dc-ce3f-4e77-a112-0fb883362c20-767",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.227Z",
+              "updatedAt": "2022-01-06T09:34:46.227Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdee8",
+              "drawer-code": "BS-DR-0041",
+              "name": "Unit",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-667e4a1f-7e2e-472b-9852-503093346a7b-768",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.227Z",
+              "updatedAt": "2022-01-06T09:34:46.227Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdee9",
+              "drawer-code": "BS-DR-0042",
+              "name": "Expiry",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-b975acc5-53d9-4032-9569-1272ec7ef8a6-769",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.227Z",
+              "updatedAt": "2022-01-06T09:34:46.227Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdeea",
+              "drawer-code": "BS-DR-0017",
+              "name": "Notification",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-c4c64e8f-907b-4a87-9d2d-dc197372f6e0-770",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.227Z",
+              "updatedAt": "2022-01-06T09:34:46.227Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdeeb",
+              "drawer-code": "BS-28e4047c-52ec-4ea2-aec9-057886ecdc91-71",
+              "name": "Transfusion History",
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-8422f90a-a1d2-4dbf-bb4e-23ec8398da95-771",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.227Z",
+              "updatedAt": "2022-01-06T09:34:46.227Z",
+              "isActive": 1
+            }
+          ],
+          "isVisible": 1,
+          "drawer-code": "BS-DR-0018",
+          "accessconfigId": [
+            "617cf069b69cc5759d602299",
+            "617cf069b69cc5759d602292",
+            "617cf069b69cc5759d602293",
+            "617cf069b69cc5759d602294",
+            "617cf069b69cc5759d602295",
+            "617cf069b69cc5759d602296",
+            "617cf069b69cc5759d60229f"
+          ],
+          "code": "BS-c9da9780-88a4-4008-81fa-f823d50c815e-200",
+          "createdBy": "614d660e219d32260e645a45",
+          "updatedBy": "614d660e219d32260e645a45",
+          "createdAt": "2022-01-06T09:34:46.371Z",
+          "updatedAt": "2022-01-06T09:34:46.371Z",
+          "isActive": 1
+        },
+        {
+          "_id": "61d6b7b6a6545541347bdf02",
+          "name": "Masters",
+          "useraccessroleId": "61d6b7a2a6545541347bdeb5",
+          "menuId": [
+            {
+              "_id": "61d6b7b6a6545541347bded6",
+              "drawer-code": "BS-DR-0027",
+              "name": "Device Type",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-9850c346-6b3d-4f05-a6c2-e87b32cddf99-761",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bded7",
+              "drawer-code": "BS-DR-0028",
+              "name": "Storage Type",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-64db60f3-c713-4079-9679-6538813b0ba5-762",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bded8",
+              "drawer-code": "BS-DR-0029",
+              "name": "Funtional Type",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-25b8b7a0-75d1-4b92-972a-fb8062c1c944-763",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bded9",
+              "drawer-code": "BS-DR-0030",
+              "name": "Process Type",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-61d2e9da-5c28-4a5e-bf56-4634977c05c4-764",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdeda",
+              "drawer-code": "BS-DR-0031",
+              "name": "Blood Group",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-bfeefd35-11a1-4dc3-b998-bed4acd3d69e-765",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdedb",
+              "drawer-code": "BS-DR-0032",
+              "name": "Location Type",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-b9e7d021-1735-4824-ab97-c54e2784e804-766",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdedc",
+              "drawer-code": "BS-DR-0050",
+              "name": "User Role",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-806356ac-67fc-42a8-9df6-eeea58f40522-767",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdedd",
+              "drawer-code": "BS-DR-0051",
+              "name": "Device Track",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-1ea8f1c2-9676-4288-af3e-4dd4b51642b0-768",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdede",
+              "drawer-code": "BS-DR-0056",
+              "name": "Product Code",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-4e0e0976-7f97-4138-969f-2ae918122bea-769",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdedf",
+              "drawer-code": "BS-aeab854d-83b9-40e7-b7e5-d18db954ac14-74",
+              "name": "Carrier Type",
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "allSelection": [
+                "1"
+              ],
+              "clone": [
+                "1"
+              ],
+              "delete": [
+                "1"
+              ],
+              "edit": [
+                "1"
+              ],
+              "selection": [
+                "1"
+              ],
+              "view": [
+                "1"
+              ],
+              "code": "BS-666e6918-fed0-458d-9dc2-0d88d167042b-770",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            }
+          ],
+          "isVisible": 1,
+          "drawer-code": "BS-DR-0035",
+          "accessconfigId": [
+            "617cf069b69cc5759d602299",
+            "617cf069b69cc5759d602292",
+            "617cf069b69cc5759d602293",
+            "617cf069b69cc5759d602294",
+            "617cf069b69cc5759d602295",
+            "617cf069b69cc5759d602296",
+            "617cf069b69cc5759d602297",
+            "617cf069b69cc5759d602298",
+            "617cf069b69cc5759d60229a",
+            "617cf069b69cc5759d60229b",
+            "617cf069b69cc5759d60229c",
+            "617cf069b69cc5759d60229d",
+            "617cf069b69cc5759d60229e",
+            "617cf069b69cc5759d60229f",
+            null
+          ],
+          "code": "BS-023d25fa-3455-4347-9598-51f04c03ef27-201",
+          "createdBy": "614d660e219d32260e645a45",
+          "updatedBy": "614d660e219d32260e645a45",
+          "createdAt": "2022-01-06T09:34:46.371Z",
+          "updatedAt": "2022-01-06T09:34:46.371Z",
+          "isActive": 1
+        },
+        {
+          "_id": "61d6b7b6a6545541347bdf03",
+          "name": "Developer",
+          "useraccessroleId": "61d6b7a2a6545541347bdeb5",
+          "menuId": [
+            {
+              "_id": "61d6b7b6a6545541347bdebe",
+              "drawer-code": "BS-DR-0046",
+              "name": "Field Type",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-588ab136-6d28-4761-85dc-27fcda90c1c4-761",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdebf",
+              "drawer-code": "BS-DR-0047",
+              "name": "Validator",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-f1996c10-6173-4684-95af-f40facaedfc5-762",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdec0",
+              "drawer-code": "BS-DR-0048",
+              "name": "Field",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-3e767674-6910-4d98-8667-a384d93e1c88-763",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdec1",
+              "drawer-code": "BS-DR-0049",
+              "name": "Module",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-30e22608-b33d-465b-9e58-2c6980210299-764",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdec2",
+              "drawer-code": "BS-DR-0058",
+              "name": "Track",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-4402c7e6-cad1-477c-88b4-0e3c9a6101c7-765",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdec3",
+              "drawer-code": "BS-DR-0059",
+              "name": "Notification Type",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-e62f6d8e-c135-4f2a-b89f-3d23265b54a1-766",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdec4",
+              "drawer-code": "BS-DR-0060",
+              "name": "Notify By",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-6e3e4de0-0397-45b5-b810-637c80eca07e-767",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdec5",
+              "drawer-code": "BS-DR-0061",
+              "name": "Email Template",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-78182f91-b89a-4fc7-8f93-8fad6105ce1a-768",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdec6",
+              "drawer-code": "BS-DR-0062",
+              "name": "Resolution Main Type",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-e2af35bd-0657-41d0-bc91-12fc77350c36-769",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdec7",
+              "drawer-code": "BS-DR-0069",
+              "name": "Resolution Field Type",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-98404e35-cb7f-485a-9dad-8df381009764-770",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdec8",
+              "drawer-code": "BS-DR-0071",
+              "name": "Resolution Sub Type",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-fdc25c75-21dd-4cab-ab61-48ce9037b4ab-771",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdec9",
+              "drawer-code": "BS-DR-0063",
+              "name": "Condition Type",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-f7d66f2e-d1d2-49c0-bed1-3b00b9adf23d-772",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdeca",
+              "drawer-code": "BS-DR-0064",
+              "name": "Condition Field Type",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-4fea74e1-3c6b-47e2-ab8b-3109cf3f2ed6-773",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdecb",
+              "drawer-code": "BS-DR-0065",
+              "name": "Condition",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-ede20fae-2f3a-4fc6-8f69-210bb831de48-774",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdecc",
+              "drawer-code": "BS-DR-0066",
+              "name": "Column",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-3a8393f0-edfc-4520-a67f-573b979a881f-775",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdecd",
+              "drawer-code": "BS-DR-0067",
+              "name": "Display Config",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-231e8d91-09db-46b7-8071-5b97b3c58bc0-776",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdece",
+              "drawer-code": "BS-DR-0070",
+              "name": "User Access",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-59347500-ed16-4d96-9376-7a46ece12dbb-777",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdecf",
+              "drawer-code": "BS-DR-0072",
+              "name": "Drawer",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-c0dc511b-73b2-4bc4-952c-0e5343fcf198-778",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bded0",
+              "drawer-code": "BS-DR-0074",
+              "name": "Operands",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-ac0d5a57-2dff-403f-be82-4d171fd3b114-779",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bded1",
+              "drawer-code": "BS-DR-0073",
+              "name": "User Access Role",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-794f842a-13ed-496b-8b41-6b291f197d31-780",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bded2",
+              "drawer-code": "BS-6221eeab-2d78-44fd-a5aa-a5eee89e53fd-88",
+              "name": "TestDC",
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "code": "BS-b574a57b-5c7c-484c-a402-8f1dbe7635b5-781",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.223Z",
+              "updatedAt": "2022-01-06T09:34:46.223Z",
+              "isActive": 1
+            }
+          ],
+          "isVisible": 1,
+          "drawer-code": "BS-DR-0036",
+          "accessconfigId": [
+            "617cf069b69cc5759d602299",
+            "617cf069b69cc5759d602292",
+            "617cf069b69cc5759d602293",
+            "617cf069b69cc5759d602294",
+            "617cf069b69cc5759d602295",
+            "617cf069b69cc5759d602296",
+            "617cf069b69cc5759d602297",
+            "617cf069b69cc5759d602298",
+            "617cf069b69cc5759d60229a",
+            "617cf069b69cc5759d60229b",
+            "617cf069b69cc5759d60229c",
+            "617cf069b69cc5759d60229d",
+            "617cf069b69cc5759d60229e",
+            "617cf069b69cc5759d60229f"
+          ],
+          "code": "BS-9f04ea99-d766-4e10-9028-4ccd1983d71d-202",
+          "createdBy": "614d660e219d32260e645a45",
+          "updatedBy": "614d660e219d32260e645a45",
+          "createdAt": "2022-01-06T09:34:46.371Z",
+          "updatedAt": "2022-01-06T09:34:46.371Z",
+          "isActive": 1
+        },
+        {
+          "_id": "61d6b7b6a6545541347bdf04",
+          "name": "Assign Unit",
+          "useraccessroleId": "61d6b7a2a6545541347bdeb5",
+          "menuId": [
+            {
+              "_id": "61d6b7b6a6545541347bdef6",
+              "drawer-code": "BS-DR-0003",
+              "name": "Assign Unit",
+              "searchByName": [
+                "1",
+                "BS-ACO-1009"
+              ],
+              "searchByMRN": [
+                "0",
+                "BS-ACO-1010"
+              ],
+              "searchByNameAndDOB": [
+                "0",
+                "BS-ACO-1011"
+              ],
+              "searchByAll": [
+                "1",
+                "BS-ACO-1012"
+              ],
+              "addNewRecipient": [
+                "0",
+                "BS-ACO-1013"
+              ],
+              "emergencyStockAssign": [
+                "0",
+                "BS-ACO-1014"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "code": "BS-3ec89fda-e642-41c6-aa6d-4f08f8c2505a-761",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.229Z",
+              "updatedAt": "2022-01-06T09:34:46.229Z",
+              "isActive": 1
+            }
+          ],
+          "isVisible": 1,
+          "drawer-code": "BS-DR-0003",
+          "accessconfigId": [
+            "617cf069b69cc5759d602286",
+            "617cf069b69cc5759d602287",
+            "617cf069b69cc5759d602288",
+            "617cf069b69cc5759d602289",
+            "617cf069b69cc5759d60228a",
+            "617cf069b69cc5759d60228b",
+            "617cf069b69cc5759d602292"
+          ],
+          "code": "BS-6c454d2b-eca6-49f1-a9bb-c26f25195d86-203",
+          "createdBy": "614d660e219d32260e645a45",
+          "updatedBy": "614d660e219d32260e645a45",
+          "createdAt": "2022-01-06T09:34:46.371Z",
+          "updatedAt": "2022-01-06T09:34:46.371Z",
+          "isActive": 1
+        },
+        {
+          "_id": "61d6b7b6a6545541347bdf05",
+          "name": "Transfer Unit",
+          "useraccessroleId": "61d6b7a2a6545541347bdeb5",
+          "menuId": [
+            {
+              "_id": "61d6b7b6a6545541347bdef5",
+              "drawer-code": "BS-DR-0075",
+              "name": "Transfer Unit",
+              "triggerLED": [
+                "1",
+                "BS-ACO-1019"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "searchByUnitandRfid": [
+                "1",
+                "BS-ACO-1035"
+              ],
+              "scannedCount": [
+                "1",
+                "BS-ACO-1036"
+              ],
+              "locationChange": [
+                "1",
+                "BS-ACO-1037"
+              ],
+              "issue": [
+                "1",
+                "BS-ACO-1038"
+              ],
+              "code": "BS-d607dacc-90d6-4a90-a652-c76666659524-761",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.228Z",
+              "updatedAt": "2022-01-06T09:34:46.228Z",
+              "isActive": 1
+            }
+          ],
+          "isVisible": 1,
+          "drawer-code": "BS-DR-0075",
+          "accessconfigId": [
+            "617cf069b69cc5759d602290",
+            "617cf069b69cc5759d602292",
+            "617cf069b69cc5759d602295",
+            "617cf069b69cc5759d602296",
+            "617cf069b69cc5759d6022a0",
+            "617cf069b69cc5759d6022a1",
+            "617cf069b69cc5759d6022a2",
+            "617cf069b69cc5759d6022a3"
+          ],
+          "code": "BS-0740d02c-4d3a-4e36-a58d-953ea742bb2b-204",
+          "createdBy": "614d660e219d32260e645a45",
+          "updatedBy": "614d660e219d32260e645a45",
+          "createdAt": "2022-01-06T09:34:46.371Z",
+          "updatedAt": "2022-01-06T09:34:46.371Z",
+          "isActive": 1
+        },
+        {
+          "_id": "61d6b7b6a6545541347bdf06",
+          "name": "Manage",
+          "useraccessroleId": "61d6b7a2a6545541347bdeb5",
+          "menuId": [
+            {
+              "_id": "61d6b7b6a6545541347bdeec",
+              "drawer-code": "BS-DR-0005",
+              "name": "Health Authority",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-a814e877-d7a3-4467-b4c7-0b47798f13db-761",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.228Z",
+              "updatedAt": "2022-01-06T09:34:46.228Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdeed",
+              "drawer-code": "BS-DR-0006",
+              "name": "Hospital",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-61e00ca8-ef9c-4e2b-b671-ded5c3354c39-762",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.228Z",
+              "updatedAt": "2022-01-06T09:34:46.228Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdeee",
+              "drawer-code": "BS-DR-0007",
+              "name": "Location",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-a6af25e5-0ebf-423b-b0b3-eef2c8c56e43-763",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.228Z",
+              "updatedAt": "2022-01-06T09:34:46.228Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdeef",
+              "drawer-code": "BS-DR-0008",
+              "name": "Device",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-2f14815d-47ea-48ee-8410-3598f863210e-764",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.228Z",
+              "updatedAt": "2022-01-06T09:34:46.228Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdef0",
+              "drawer-code": "BS-DR-0009",
+              "name": "User",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-3b8b2875-9fee-45a2-87e3-39d9498c6fee-765",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.228Z",
+              "updatedAt": "2022-01-06T09:34:46.228Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdef1",
+              "drawer-code": "BS-DR-0011",
+              "name": "Recipient",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-a69e13f1-4242-4426-8881-196d88637590-766",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.228Z",
+              "updatedAt": "2022-01-06T09:34:46.228Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdef2",
+              "drawer-code": "BS-DR-0010",
+              "name": "Rule",
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "selection": [
+                "1",
+                "BS-ACO-1026"
+              ],
+              "allSelection": [
+                "1",
+                "BS-ACO-1027"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "view": [
+                "1",
+                "BS-ACO-1030"
+              ],
+              "edit": [
+                "1",
+                "BS-ACO-1031"
+              ],
+              "clone": [
+                "1",
+                "BS-ACO-1032"
+              ],
+              "delete": [
+                "1",
+                "BS-ACO-1033"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "code": "BS-df09396c-ed52-44cd-b9f1-7c4600f89561-767",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.228Z",
+              "updatedAt": "2022-01-06T09:34:46.228Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdef3",
+              "drawer-code": "BS-8b9debd9-a898-4414-aaac-b2c417c76c36-72",
+              "name": "Carrier Type",
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "code": "BS-3021121d-a634-4d0c-96d0-4b7702a9bc34-768",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.228Z",
+              "updatedAt": "2022-01-06T09:34:46.228Z",
+              "isActive": 1
+            },
+            {
+              "_id": "61d6b7b6a6545541347bdef4",
+              "drawer-code": "BS-b745350d-0ec7-46f1-a92c-a9a905f3bca7-89",
+              "name": "requesr test",
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "search": [
+                "1",
+                "BS-ACO-1022"
+              ],
+              "export": [
+                "1",
+                "BS-ACO-1023"
+              ],
+              "displayConfig": [
+                "1",
+                "BS-ACO-1024"
+              ],
+              "sequenceChange": [
+                "1",
+                "BS-ACO-1025"
+              ],
+              "detailView": [
+                "1",
+                "BS-ACO-1028"
+              ],
+              "filterCriteria": [
+                "1",
+                "BS-ACO-1034"
+              ],
+              "add": [
+                "1",
+                "BS-ACO-1029"
+              ],
+              "code": "BS-2e35e454-2ec7-40e7-9fff-812eb2673317-769",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.228Z",
+              "updatedAt": "2022-01-06T09:34:46.228Z",
+              "isActive": 1
+            }
+          ],
+          "isVisible": 1,
+          "drawer-code": "BS-DR-0012",
+          "accessconfigId": [
+            "617cf069b69cc5759d602299",
+            "617cf069b69cc5759d602292",
+            "617cf069b69cc5759d602293",
+            "617cf069b69cc5759d602294",
+            "617cf069b69cc5759d602295",
+            "617cf069b69cc5759d602296",
+            "617cf069b69cc5759d602297",
+            "617cf069b69cc5759d602298",
+            "617cf069b69cc5759d60229a",
+            "617cf069b69cc5759d60229b",
+            "617cf069b69cc5759d60229c",
+            "617cf069b69cc5759d60229d",
+            "617cf069b69cc5759d60229e",
+            "617cf069b69cc5759d60229f"
+          ],
+          "code": "BS-5239edb3-8090-40e9-a9fc-191813adf6a0-205",
+          "createdBy": "614d660e219d32260e645a45",
+          "updatedBy": "614d660e219d32260e645a45",
+          "createdAt": "2022-01-06T09:34:46.371Z",
+          "updatedAt": "2022-01-06T09:34:46.371Z",
+          "isActive": 1
+        },
+        {
+          "_id": "61d6b7b6a6545541347bdf07",
+          "name": "Associate Unit",
+          "useraccessroleId": "61d6b7a2a6545541347bdeb5",
+          "menuId": [
+            {
+              "_id": "61d6b7b6a6545541347bdef8",
+              "drawer-code": "BS-DR-0002",
+              "name": "Associate Unit",
+              "barcode": [
+                "1",
+                "BS-ACO-1003"
+              ],
+              "preEncoded": [
+                "1",
+                "BS-ACO-1004"
+              ],
+              "singleView": [
+                "1",
+                "BS-ACO-1005"
+              ],
+              "bulkView": [
+                "1",
+                "BS-ACO-1006"
+              ],
+              "start": [
+                "1",
+                "BS-ACO-1007"
+              ],
+              "associateUnit": [
+                "1",
+                "BS-ACO-1008"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "code": "BS-9731d49f-331c-4451-9758-7a8b22fd881d-762",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.238Z",
+              "updatedAt": "2022-01-06T09:34:46.238Z",
+              "isActive": 1
+            }
+          ],
+          "isVisible": 0,
+          "drawer-code": "BS-DR-0002",
+          "accessconfigId": [
+            "617cf069b69cc5759d602280",
+            "617cf069b69cc5759d602281",
+            "617cf069b69cc5759d602282",
+            "617cf069b69cc5759d602283",
+            "617cf069b69cc5759d602284",
+            "617cf069b69cc5759d602285",
+            "617cf069b69cc5759d602292"
+          ],
+          "code": "BS-76dd5f91-9e34-46aa-95fb-9c0edf22af6a-206",
+          "createdBy": "614d660e219d32260e645a45",
+          "updatedBy": "614d660e219d32260e645a45",
+          "createdAt": "2022-01-06T09:34:46.371Z",
+          "updatedAt": "2022-01-06T09:34:46.371Z",
+          "isActive": 1
+        },
+        {
+          "_id": "61d6b7b6a6545541347bdf08",
+          "name": "Dashboard",
+          "useraccessroleId": "61d6b7a2a6545541347bdeb5",
+          "menuId": [
+            {
+              "_id": "61d6b7b6a6545541347bdef9",
+              "drawer-code": "BS-DR-0001",
+              "name": "Dashboard",
+              "dashboard": [
+                "1",
+                "BS-ACO-1001"
+              ],
+              "dashboardFilter": [
+                "1",
+                "BS-ACO-1002"
+              ],
+              "pageView": [
+                "1",
+                "BS-ACO-1021"
+              ],
+              "code": "BS-cea9cf9d-02ac-45bb-a6a7-5cbbec3cc6ca-762",
+              "createdBy": "614d660e219d32260e645a45",
+              "updatedBy": "614d660e219d32260e645a45",
+              "createdAt": "2022-01-06T09:34:46.239Z",
+              "updatedAt": "2022-01-06T09:34:46.239Z",
+              "isActive": 1
+            }
+          ],
+          "isVisible": 0,
+          "drawer-code": "BS-DR-0001",
+          "accessconfigId": [
+            "617cf069b69cc5759d60227e",
+            "617cf069b69cc5759d60227f",
+            "617cf069b69cc5759d602292"
+          ],
+          "code": "BS-19d9b616-c113-4be5-a55e-408ae8477394-207",
+          "createdBy": "614d660e219d32260e645a45",
+          "updatedBy": "614d660e219d32260e645a45",
+          "createdAt": "2022-01-06T09:34:46.371Z",
+          "updatedAt": "2022-01-06T09:34:46.371Z",
+          "isActive": 1
+        }
+      ],
+      "devices": [
+        "6194bd76ab619208f4faac4d",
+        "6194bd2cab619208f4faac4c",
+        "617658c0c0c3ad15e4e547d1",
+        "6176588bc0c3ad15e4e547d0",
+        "61765862c0c3ad15e4e547cf",
+        "61727b2ec0c3ad15e4e546dc",
+        "617116c7b21b79633a4d13be",
+        "617115efb21b79633a4d13bd",
+        "61655089870f8832188d9420",
+        "615aaf422f60851451997afb",
+        "61556ac06fbbd849e4618173",
+        "614dacf947f3be7beed34c8e",
+        "614424552a7f945d53e53d43",
+        "6131aeaa804bbc667b383fd7",
+        "61309fef67be2141b7b069ae",
+        "61309fb567be2141b7b06990",
+        "612e1cd7ea986e727df1d6c1",
+        "612338991152596c7b71303f",
+        "611cbacde8bacb0bd79d3aed",
+        "611a8110ede051516a94a4bf",
+        "6194bdb1ab619208f4faac4e"
+      ]
+    },
+    "error": null
+  }

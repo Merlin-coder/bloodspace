@@ -1,0 +1,515 @@
+{
+    "status": true,
+    "message": "Fetch Successful",
+    "page": {
+        "hasNextPage": false,
+        "totalCount": 3,
+        "currentPage": 1,
+        "filterCount": 5,
+        "totalPage": 1
+    },
+    "displayConfig": [
+        {
+            "text": "# Number",
+            "align": "left",
+            "valKey": "serialNumber"
+        },
+        {
+            "text": "IP Address",
+            "align": "left",
+            "valKey": "ipAddress"
+        },
+        {
+            "text": "Device Type",
+            "align": "left",
+            "valKey": "deviceTypeId.name",
+            "isLink": true
+        },
+        {
+            "text": "Hospital",
+            "align": "left",
+            "valKey": "clientId.name",
+            "isLink": true
+        },
+        {
+            "text": "Location",
+            "align": "left",
+            "valKey": "locationId.name",
+            "isLink": true
+        },
+        {
+            "text": "Created Date",
+            "align": "left",
+            "valKey": "createdAt"
+        },
+        {
+            "text": "Created By",
+            "align": "left",
+            "valKey": "createdBy.firstName",
+            "isLink": true
+        },
+        {
+            "text": "Actions",
+            "align": "center  ",
+            "valKey": "@"
+        }
+    ],
+    "data": [
+        {
+            "_id": "6024c59f3095331e7850ea2f",
+            "isActive": true,
+            "isDeleted": false,
+            "locationId": [
+                {
+                    "_id": "601cec92bc60114cf42750ce",
+                    "isActive": true,
+                    "isDeleted": false,
+                    "code": "location 1",
+                    "name": "Location 1",
+                    "description": "description loc 1",
+                    "locationTypeId": "601ce8f6a7a28622908cdb66",
+                    "updatedBy": "60127c5dba0aa905ac37afea",
+                    "createdBy": "60127c5dba0aa905ac37afea",
+                    "metaData": [],
+                    "createdAt": "2021-02-05T06:58:26.588Z",
+                    "updatedAt": "2021-02-05T06:58:26.588Z",
+                    "__v": 0
+                }
+            ],
+            "clientId": [
+                {
+                    "_id": "602119529e17502744b1d26b",
+                    "isActive": true,
+                    "isDeleted": false,
+                    "name": "Hospital 1",
+                    "code": "1005",
+                    "address1": "America",
+                    "address2": "hyderabad",
+                    "city": "hyderabad",
+                    "state": "telangana",
+                    "metaData": [
+                        {
+                            "key": "firstName",
+                            "value": "google",
+                            "type": "String"
+                        },
+                        {
+                            "key": "lastName",
+                            "value": "ab",
+                            "type": "String"
+                        },
+                        {
+                            "key": "badgeNumber",
+                            "value": "B00015",
+                            "type": "String"
+                        }
+                    ],
+                    "updatedBy": "6024c835ad700509c49fcab8",
+                    "createdBy": "60127c5dba0aa905ac37afea",
+                    "createdAt": "2021-02-08T10:58:26.337Z",
+                    "updatedAt": "2021-02-12T10:38:38.715Z",
+                    "__v": 0
+                }
+            ],
+            "serialNumber": "deviceNumber-002",
+            "ipAddress": "192.168.21.202",
+            "deviceTypeId": [
+                {
+                    "_id": "60236e98f2b1af21a8038e7d",
+                    "ruleIds": ["601ce35722849f4f9844e630"],
+                    "isActive": true,
+                    "isDeleted": false,
+                    "code": "dt2",
+                    "name": "device type 2",
+                    "description": "new device type",
+                    "updatedBy": "60127c5dba0aa905ac37afea",
+                    "createdBy": "60127c5dba0aa905ac37afea",
+                    "createdAt": "2021-02-10T05:26:48.058Z",
+                    "updatedAt": "2021-02-10T05:26:48.058Z",
+                    "__v": 0
+                }
+            ],
+            "metaData": [
+                {
+                    "key": "device-model",
+                    "value": "DM-001",
+                    "type": "String"
+                }
+            ],
+            "updatedBy": "60127c5dba0aa905ac37afea",
+            "createdBy": {
+                "username": "Space-user-01",
+                "firstName": "Kevin",
+                "lastName": "White"
+            },
+            "createdAt": "2021-02-11T05:50:23.518Z",
+            "updatedAt": "2021-02-11T05:50:23.518Z",
+            "__v": 0
+        },
+        {
+            "_id": "6024c51b8e82502ff42d4d04",
+            "isActive": true,
+            "isDeleted": true,
+            "locationId": [
+                {
+                    "_id": "601cec92bc60114cf42750ce",
+                    "isActive": true,
+                    "isDeleted": false,
+                    "code": "location 1",
+                    "name": "Location ",
+                    "description": "description loc 1",
+                    "locationTypeId": "601ce8f6a7a28622908cdb66",
+                    "updatedBy": "60127c5dba0aa905ac37afea",
+                    "createdBy": "60127c5dba0aa905ac37afea",
+                    "metaData": [],
+                    "createdAt": "2021-02-05T06:58:26.588Z",
+                    "updatedAt": "2021-02-05T06:58:26.588Z",
+                    "__v": 0
+                }
+            ],
+            "clientId": [
+                {
+                    "_id": "602119529e17502744b1d26b",
+                    "isActive": true,
+                    "isDeleted": false,
+                    "name": "Hospital 1",
+                    "code": "1005",
+                    "address1": "America",
+                    "address2": "hyderabad",
+                    "city": "hyderabad",
+                    "state": "telangana",
+                    "metaData": [
+                        {
+                            "key": "firstName",
+                            "value": "google",
+                            "type": "String"
+                        },
+                        {
+                            "key": "lastName",
+                            "value": "ab",
+                            "type": "String"
+                        },
+                        {
+                            "key": "badgeNumber",
+                            "value": "B00015",
+                            "type": "String"
+                        }
+                    ],
+                    "updatedBy": "6024c835ad700509c49fcab8",
+                    "createdBy": "60127c5dba0aa905ac37afea",
+                    "createdAt": "2021-02-08T10:58:26.337Z",
+                    "updatedAt": "2021-02-12T10:38:38.715Z",
+                    "__v": 0
+                }
+            ],
+            "serialNumber": "deviceNumber-002",
+            "ipAddress": "192.168.21.201",
+            "deviceTypeId": [
+                {
+                    "_id": "60236e98f2b1af21a8038e7d",
+                    "ruleIds": ["601ce35722849f4f9844e630"],
+                    "isActive": true,
+                    "isDeleted": false,
+                    "code": "dt2",
+                    "name": "device type 2",
+                    "description": "new device type",
+                    "updatedBy": "60127c5dba0aa905ac37afea",
+                    "createdBy": "60127c5dba0aa905ac37afea",
+                    "createdAt": "2021-02-10T05:26:48.058Z",
+                    "updatedAt": "2021-02-10T05:26:48.058Z",
+                    "__v": 0
+                }
+            ],
+            "metaData": [
+                {
+                    "key": "device-model",
+                    "value": "DM-001",
+                    "type": "String"
+                }
+            ],
+            "updatedBy": "60127c5dba0aa905ac37afea",
+            "createdBy": {
+                "username": "Space-user-01",
+                "firstName": "Kevin",
+                "lastName": "White"
+            },
+            "createdAt": "2021-02-11T05:48:11.823Z",
+            "updatedAt": "2021-02-11T05:52:30.987Z",
+            "__v": 0
+        },
+        {
+            "_id": "6023b7388cc67321580075ac",
+            "isActive": true,
+            "isDeleted": false,
+            "locationId": [
+                {
+                    "_id": "601cec92bc60114cf42750ce",
+                    "isActive": true,
+                    "isDeleted": false,
+                    "code": "location 1",
+                    "name": "location name 1",
+                    "description": "description loc 1",
+                    "locationTypeId": "601ce8f6a7a28622908cdb66",
+                    "updatedBy": "60127c5dba0aa905ac37afea",
+                    "createdBy": "60127c5dba0aa905ac37afea",
+                    "metaData": [],
+                    "createdAt": "2021-02-05T06:58:26.588Z",
+                    "updatedAt": "2021-02-05T06:58:26.588Z",
+                    "__v": 0
+                }
+            ],
+            "clientId": [
+                {
+                    "_id": "602119529e17502744b1d26b",
+                    "isActive": true,
+                    "isDeleted": false,
+                    "name": "Hospital 1",
+                    "code": "1005",
+                    "address1": "America",
+                    "address2": "hyderabad",
+                    "city": "hyderabad",
+                    "state": "telangana",
+                    "metaData": [
+                        {
+                            "key": "firstName",
+                            "value": "google",
+                            "type": "String"
+                        },
+                        {
+                            "key": "lastName",
+                            "value": "ab",
+                            "type": "String"
+                        },
+                        {
+                            "key": "badgeNumber",
+                            "value": "B00015",
+                            "type": "String"
+                        }
+                    ],
+                    "updatedBy": "6024c835ad700509c49fcab8",
+                    "createdBy": "60127c5dba0aa905ac37afea",
+                    "createdAt": "2021-02-08T10:58:26.337Z",
+                    "updatedAt": "2021-02-12T10:38:38.715Z",
+                    "__v": 0
+                }
+            ],
+            "serialNumber": "deviceNumber-002",
+            "ipAddress": "192.168.21.211",
+            "deviceTypeId": [
+                {
+                    "_id": "60236e98f2b1af21a8038e7d",
+                    "ruleIds": ["601ce35722849f4f9844e630"],
+                    "isActive": true,
+                    "isDeleted": false,
+                    "code": "dt2",
+                    "name": "device type 2",
+                    "description": "new device type",
+                    "updatedBy": "60127c5dba0aa905ac37afea",
+                    "createdBy": "60127c5dba0aa905ac37afea",
+                    "createdAt": "2021-02-10T05:26:48.058Z",
+                    "updatedAt": "2021-02-10T05:26:48.058Z",
+                    "__v": 0
+                }
+            ],
+            "metaData": [
+                {
+                    "key": "device-model",
+                    "value": "DM-001",
+                    "type": "String"
+                }
+            ],
+            "updatedBy": "60127c5dba0aa905ac37afea",
+            "createdBy": {
+                "username": "Space-user-01",
+                "firstName": "Kevin",
+                "lastName": "White"
+            },
+            "createdAt": "2021-02-10T10:36:40.905Z",
+            "updatedAt": "2021-02-10T10:36:40.905Z",
+            "__v": 0
+        },
+        {
+            "_id": "60236fbc1bf5303b684b73c3",
+            "isActive": true,
+            "isDeleted": false,
+            "locationId": [
+                {
+                    "_id": "601cec92bc60114cf42750ce",
+                    "isActive": true,
+                    "isDeleted": false,
+                    "code": "location 1",
+                    "name": "location name 1",
+                    "description": "description loc 1",
+                    "locationTypeId": "601ce8f6a7a28622908cdb66",
+                    "updatedBy": "60127c5dba0aa905ac37afea",
+                    "createdBy": "60127c5dba0aa905ac37afea",
+                    "metaData": [],
+                    "createdAt": "2021-02-05T06:58:26.588Z",
+                    "updatedAt": "2021-02-05T06:58:26.588Z",
+                    "__v": 0
+                }
+            ],
+            "clientId": [
+                {
+                    "_id": "602119529e17502744b1d26b",
+                    "isActive": true,
+                    "isDeleted": false,
+                    "name": "Hospital 1",
+                    "code": "1005",
+                    "address1": "America",
+                    "address2": "hyderabad",
+                    "city": "hyderabad",
+                    "state": "telangana",
+                    "metaData": [
+                        {
+                            "key": "firstName",
+                            "value": "google",
+                            "type": "String"
+                        },
+                        {
+                            "key": "lastName",
+                            "value": "ab",
+                            "type": "String"
+                        },
+                        {
+                            "key": "badgeNumber",
+                            "value": "B00015",
+                            "type": "String"
+                        }
+                    ],
+                    "updatedBy": "6024c835ad700509c49fcab8",
+                    "createdBy": "60127c5dba0aa905ac37afea",
+                    "createdAt": "2021-02-08T10:58:26.337Z",
+                    "updatedAt": "2021-02-12T10:38:38.715Z",
+                    "__v": 0
+                }
+            ],
+            "serialNumber": "deviceNumber-002",
+            "ipAddress": "192.168.21.210",
+            "deviceTypeId": [
+                {
+                    "_id": "60236e98f2b1af21a8038e7d",
+                    "ruleIds": ["601ce35722849f4f9844e630"],
+                    "isActive": true,
+                    "isDeleted": false,
+                    "code": "dt2",
+                    "name": "device type 2",
+                    "description": "new device type",
+                    "updatedBy": "60127c5dba0aa905ac37afea",
+                    "createdBy": "60127c5dba0aa905ac37afea",
+                    "createdAt": "2021-02-10T05:26:48.058Z",
+                    "updatedAt": "2021-02-10T05:26:48.058Z",
+                    "__v": 0
+                }
+            ],
+            "metaData": [
+                {
+                    "key": "device-model",
+                    "value": "DM-001",
+                    "type": "String"
+                }
+            ],
+            "updatedBy": "60127c5dba0aa905ac37afea",
+            "createdBy": {
+                "username": "Space-user-01",
+                "firstName": "Kevin",
+                "lastName": "White"
+            },
+            "createdAt": "2021-02-10T05:31:40.340Z",
+            "updatedAt": "2021-02-10T05:31:40.340Z",
+            "__v": 0
+        },
+        {
+            "_id": "60236edcf2b1af21a8038e7e",
+            "isActive": true,
+            "isDeleted": true,
+            "locationId": [
+                {
+                    "_id": "601cec92bc60114cf42750ce",
+                    "isActive": true,
+                    "isDeleted": false,
+                    "code": "location 1",
+                    "name": "location name 1",
+                    "description": "description loc 1",
+                    "locationTypeId": "601ce8f6a7a28622908cdb66",
+                    "updatedBy": "60127c5dba0aa905ac37afea",
+                    "createdBy": "60127c5dba0aa905ac37afea",
+                    "metaData": [],
+                    "createdAt": "2021-02-05T06:58:26.588Z",
+                    "updatedAt": "2021-02-05T06:58:26.588Z",
+                    "__v": 0
+                }
+            ],
+            "clientId": [
+                {
+                    "_id": "602119529e17502744b1d26b",
+                    "isActive": true,
+                    "isDeleted": false,
+                    "name": "Hospital 1",
+                    "code": "1005",
+                    "address1": "America",
+                    "address2": "hyderabad",
+                    "city": "hyderabad",
+                    "state": "telangana",
+                    "metaData": [
+                        {
+                            "key": "firstName",
+                            "value": "google",
+                            "type": "String"
+                        },
+                        {
+                            "key": "lastName",
+                            "value": "ab",
+                            "type": "String"
+                        },
+                        {
+                            "key": "badgeNumber",
+                            "value": "B00015",
+                            "type": "String"
+                        }
+                    ],
+                    "updatedBy": "6024c835ad700509c49fcab8",
+                    "createdBy": "60127c5dba0aa905ac37afea",
+                    "createdAt": "2021-02-08T10:58:26.337Z",
+                    "updatedAt": "2021-02-12T10:38:38.715Z",
+                    "__v": 0
+                }
+            ],
+            "serialNumber": "deviceNumber-001",
+            "ipAddress": "192.168.21.219",
+            "deviceTypeId": [
+                {
+                    "_id": "60236e98f2b1af21a8038e7d",
+                    "ruleIds": ["601ce35722849f4f9844e630"],
+                    "isActive": true,
+                    "isDeleted": false,
+                    "code": "dt2",
+                    "name": "device type 2",
+                    "description": "new device type",
+                    "updatedBy": "60127c5dba0aa905ac37afea",
+                    "createdBy": "60127c5dba0aa905ac37afea",
+                    "createdAt": "2021-02-10T05:26:48.058Z",
+                    "updatedAt": "2021-02-10T05:26:48.058Z",
+                    "__v": 0
+                }
+            ],
+            "metaData": [
+                {
+                    "key": "device-model",
+                    "value": "DM-001",
+                    "type": "String"
+                }
+            ],
+            "updatedBy": "60127c5dba0aa905ac37afea",
+            "createdBy": {
+                "username": "Space-user",
+                "firstName": "Diana",
+                "lastName": "Roman"
+            },
+            "createdAt": "2021-02-10T05:27:56.185Z",
+            "updatedAt": "2021-02-10T05:31:21.035Z",
+            "__v": 0
+        }
+    ],
+    "error": null
+}

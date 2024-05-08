@@ -1,0 +1,79 @@
+{
+    "status": true,
+    "message": "Fetch Successful",
+    "page": {
+        "hasNextPage": false,
+        "totalCount": 5,
+        "currentPage": 1,
+        "filterCount": 1,
+        "totalPage": 1
+    },
+    "data": [
+        {
+            "_id": "602114d87bfc1556f8d5039b",
+            "isActive": true,
+            "isDeleted": false,
+            "code": "10",
+            "name": "Location 1",
+            "description": "1",
+            "locationTypeId": "601e4d5ed761b82934428568",
+            "updatedBy": "600bd939c9ce493988993e20",
+            "createdBy": "600bd939c9ce493988993e20",
+            "createdAt": "2021-02-08T10:39:20.976Z",
+            "updatedAt": "2021-02-08T10:39:20.976Z"
+        },
+        {
+            "_id": "602114d87bfc1556f8d5039b",
+            "isActive": true,
+            "isDeleted": false,
+            "code": "10",
+            "name": "Location 2",
+            "description": "2",
+            "locationTypeId": "601e4d5ed761b82934428568",
+            "updatedBy": "600bd939c9ce493988993e20",
+            "createdBy": "600bd939c9ce493988993e20",
+            "createdAt": "2021-02-08T10:39:20.976Z",
+            "updatedAt": "2021-02-08T10:39:20.976Z"
+        },
+        {
+            "_id": "602114d87bfc1556f8d5039b",
+            "isActive": true,
+            "isDeleted": false,
+            "code": "10",
+            "name": "Location 3",
+            "description": "3",
+            "locationTypeId": "601e4d5ed761b82934428568",
+            "updatedBy": "600bd939c9ce493988993e20",
+            "createdBy": "600bd939c9ce493988993e20",
+            "createdAt": "2021-02-08T10:39:20.976Z",
+            "updatedAt": "2021-02-08T10:39:20.976Z"
+        },
+        {
+            "_id": "602114d87bfc1556f8d5039b",
+            "isActive": true,
+            "isDeleted": false,
+            "code": "10",
+            "name": "Location 4",
+            "description": "4",
+            "locationTypeId": "601e4d5ed761b82934428568",
+            "updatedBy": "600bd939c9ce493988993e20",
+            "createdBy": "600bd939c9ce493988993e20",
+            "createdAt": "2021-02-08T10:39:20.976Z",
+            "updatedAt": "2021-02-08T10:39:20.976Z"
+        },
+        {
+            "_id": "602114d87bfc1556f8d5039b",
+            "isActive": true,
+            "isDeleted": false,
+            "code": "10",
+            "name": "Location 5",
+            "description": "5",
+            "locationTypeId": "601e4d5ed761b82934428568",
+            "updatedBy": "600bd939c9ce493988993e20",
+            "createdBy": "600bd939c9ce493988993e20",
+            "createdAt": "2021-02-08T10:39:20.976Z",
+            "updatedAt": "2021-02-08T10:39:20.976Z"
+        }
+    ],
+    "error": null
+}

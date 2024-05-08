@@ -1,0 +1,70 @@
+{
+    "status": true,
+    "message": "Fetch Successful",
+    "page": {
+        "hasNextPage": false,
+        "totalCount": 5,
+        "currentPage": 1,
+        "filterCount": 7,
+        "totalPage": 1
+    },
+    "data": [
+        {
+            "_id": "6024f0412daffc5908cd98a6",
+            "isActive": true,
+            "isDeleted": false,
+            "code": "DT-05",
+            "name": "Device type 1",
+            "__v": 0
+        },
+        {
+            "_id": "6024d5a2d6908e36e80f3825",
+            "isActive": true,
+            "isDeleted": false,
+            "code": "DT-02",
+            "name": "Device type 2",
+            "__v": 0
+        },
+        {
+            "_id": "6024c7e124000228f44adbd2",
+            "isActive": true,
+            "isDeleted": true,
+            "code": "DT-03",
+            "name": "Device type 3",
+            "__v": 0
+        },
+        {
+            "_id": "6023ba79da21993ab4131aea",
+            "isActive": true,
+            "isDeleted": false,
+            "code": "DT-04",
+            "name": "Device type 4",
+            "__v": 0
+        },
+        {
+            "_id": "6023ba3ada21993ab4131ae9",
+            "isActive": true,
+            "isDeleted": false,
+            "code": "DT-05",
+            "name": "Device type 5",
+            "__v": 0
+        },
+        {
+            "_id": "60236e98f2b1af21a8038e7d",
+            "isActive": true,
+            "isDeleted": false,
+            "code": "dt6",
+            "name": "Device type 6",
+            "__v": 0
+        },
+        {
+            "_id": "60236db8cfd16c22dc70a041",
+            "isActive": true,
+            "isDeleted": true,
+            "code": "dt7",
+            "name": "Device type 7",
+            "__v": 0
+        }
+    ],
+    "error": null
+}

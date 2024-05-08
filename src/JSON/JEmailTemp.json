@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "typeId": "BS001",
+      "description": "Email Template 1"
+    },
+    {
+      "typeId": "BS002",
+      "description": "Email Template 2"
+    },
+    {
+      "typeId": "BS003",
+      "description": "Email Template 3"
+    }
+  ]
+}

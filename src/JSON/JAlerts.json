@@ -1,0 +1,16 @@
+{
+    "data": [
+        {
+            "alertId": "BSA0001",
+            "type": "Mickey"
+        },
+        {
+            "alertId": "BSA0002",
+            "type": "Mini"
+        },
+        {
+            "alertId": "BSA0003",
+            "type": "My Alert Type"
+        }
+    ]
+}

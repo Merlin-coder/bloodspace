@@ -1,0 +1,912 @@
+{
+  "status": true,
+  "message": "Fetch Successful",
+  "page": {
+    "hasNextPage": true,
+    "totalCount": 205,
+    "currentPage": 1,
+    "filterCount": 205,
+    "totalPage": 7
+  },
+  "displayConfigData": {
+    "_id": "608fcdd491a1e715683958ad",
+    "code": "BS-DC-1001",
+    "createdBy": "608fbc3091a1e7156839533e",
+    "updatedBy": "608fbc3091a1e7156839533e",
+    "user-code": null,
+    "isDefault": 1,
+    "collectionName": "users",
+    "columnId": [
+      "608fcdd291a1e7156839580f",
+      "608fcdd291a1e71568395810",
+      "608fcdd291a1e71568395811",
+      "608fcdd291a1e71568395812",
+      "608fcdd291a1e71568395813",
+      "608fcdd291a1e71568395814",
+      "608fcdd291a1e71568395815",
+      "608fcdd291a1e71568395816",
+      "608fcdd291a1e71568395817"
+    ],
+    "displayConfig": [
+      {
+        "_id": "608fcdd291a1e7156839580f",
+        "code": "BS-CM-5000",
+        "createdBy": "608fbc3091a1e7156839533e",
+        "updatedBy": "608fbc3091a1e7156839533e",
+        "dbProperty": "#",
+        "label": "checkbox",
+        "sequence": null
+      },
+      {
+        "_id": "608fcdd291a1e71568395810",
+        "code": "BS-CM-5001",
+        "createdBy": "608fbc3091a1e7156839533e",
+        "updatedBy": "608fbc3091a1e7156839533e",
+        "dbProperty": "username",
+        "label": "Username",
+        "sequence": 1
+      },
+      {
+        "_id": "608fcdd291a1e71568395811",
+        "code": "BS-CM-5002",
+        "createdBy": "608fbc3091a1e7156839533e",
+        "updatedBy": "608fbc3091a1e7156839533e",
+        "dbProperty": "firstName",
+        "label": "First Name",
+        "sequence": 2
+      },
+      {
+        "_id": "608fcdd291a1e71568395812",
+        "code": "BS-CM-5003",
+        "createdBy": "608fbc3091a1e7156839533e",
+        "updatedBy": "608fbc3091a1e7156839533e",
+        "dbProperty": "lastName",
+        "label": "Last Name",
+        "sequence": 3
+      },
+      {
+        "_id": "608fcdd291a1e71568395813",
+        "code": "BS-CM-5004",
+        "createdBy": "608fbc3091a1e7156839533e",
+        "updatedBy": "608fbc3091a1e7156839533e",
+        "dbProperty": "badgeNo",
+        "label": "Badge ID",
+        "sequence": 4
+      },
+      {
+        "_id": "608fcdd291a1e71568395814",
+        "code": "BS-CM-5005",
+        "createdBy": "608fbc3091a1e7156839533e",
+        "updatedBy": "608fbc3091a1e7156839533e",
+        "dbProperty": "userroleId[0].name",
+        "label": "User Role",
+        "sequence": 5
+      },
+      {
+        "_id": "608fcdd291a1e71568395815",
+        "code": "BS-CM-5006",
+        "createdBy": "608fbc3091a1e7156839533e",
+        "updatedBy": "608fbc3091a1e7156839533e",
+        "dbProperty": "createdBy[0].firstName",
+        "label": "Created By",
+        "sequence": 6
+      },
+      {
+        "_id": "608fcdd291a1e71568395816",
+        "code": "BS-CM-5007",
+        "createdBy": "608fbc3091a1e7156839533e",
+        "updatedBy": "608fbc3091a1e7156839533e",
+        "dbProperty": "updatedBy[0].firstName",
+        "label": "Updated By",
+        "sequence": 7
+      },
+      {
+        "_id": "608fcdd291a1e71568395817",
+        "code": "BS-CM-5008",
+        "createdBy": "608fbc3091a1e7156839533e",
+        "updatedBy": "608fbc3091a1e7156839533e",
+        "dbProperty": "@",
+        "label": "Actions",
+        "sequence": null
+      }
+    ]
+  },
+  "data": [
+    {
+      "_id": "6090fd0bdbff673b105e7998",
+      "username": "admin",
+      "createdBy": [],
+      "updatedBy": [],
+      "password": "admin",
+      "firstName": "Olivia",
+      "lastName": "Ruby",
+      "badgeNo": "BG-200101",
+      "userrole-code": "BS-UR-1001",
+      "code": "BS-US-1001",
+      "userroleId": [
+        {
+          "_id": "6090fcfbdbff673b105e793e",
+          "name": "Owner",
+          "createdBy": "608805691bc7ee2c60b7dd08",
+          "updatedBy": "608805691bc7ee2c60b7dd08",
+          "code": "BS-UR-1001",
+          "description": "Owner of the hospital",
+          "module-code": "BS-MO-1001",
+          "moduleId": "6090fcf5dbff673b105e78ee"
+        }
+      ]
+    },
+    {
+      "_id": "6090fd0bdbff673b105e7999",
+      "username": "emily",
+      "createdBy": [],
+      "updatedBy": [],
+      "password": "Def456#$",
+      "firstName": "Emily",
+      "lastName": "Grace",
+      "badgeNo": "BG-200102",
+      "userrole-code": "BS-UR-1002",
+      "code": "BS-US-1002",
+      "userroleId": [
+        {
+          "_id": "6090fcfbdbff673b105e793f",
+          "name": "Manager",
+          "createdBy": "608805691bc7ee2c60b7dd08",
+          "updatedBy": "608805691bc7ee2c60b7dd08",
+          "code": "BS-UR-1002",
+          "description": "Manage the services",
+          "module-code": "BS-MO-1001,BS-MO-1002",
+          "moduleId": [
+            "6090fcf5dbff673b105e78ee",
+            "6090fcf5dbff673b105e78ef"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "6090fd0bdbff673b105e799a",
+      "username": "jessica",
+      "createdBy": [],
+      "updatedBy": [],
+      "password": "abc123#$",
+      "firstName": "Jessica",
+      "lastName": "Chole",
+      "badgeNo": "BG-200103",
+      "userrole-code": "BS-UR-1003",
+      "code": "BS-US-1003",
+      "userroleId": [
+        {
+          "_id": "6090fcfbdbff673b105e7940",
+          "name": "Receptionist",
+          "createdBy": "608805691bc7ee2c60b7dd08",
+          "updatedBy": "608805691bc7ee2c60b7dd08",
+          "code": "BS-UR-1003",
+          "description": "Staff the ward reception desks.",
+          "module-code": "BS-MO-1003,BS-MO-1005",
+          "moduleId": [
+            "6090fcf5dbff673b105e78f0",
+            "6090fcf5dbff673b105e78f2"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "6090fd0bdbff673b105e799b",
+      "username": "sophie",
+      "createdBy": [],
+      "updatedBy": [],
+      "password": "Asde456^&",
+      "firstName": "Lily",
+      "lastName": "Sophie",
+      "badgeNo": "BG-200104",
+      "userrole-code": "BS-UR-1004",
+      "code": "BS-US-1004",
+      "userroleId": [
+        {
+          "_id": "6090fcfbdbff673b105e7941",
+          "name": "Doctor",
+          "createdBy": "608805691bc7ee2c60b7dd08",
+          "updatedBy": "608805691bc7ee2c60b7dd08",
+          "code": "BS-UR-1004",
+          "description": "Doctors assess and manage your medical treatment.",
+          "module-code": "BS-MO-1001,BS-MO-1002",
+          "moduleId": [
+            "6090fcf5dbff673b105e78ee",
+            "6090fcf5dbff673b105e78ef"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "6090fd0bdbff673b105e799c",
+      "username": "melia",
+      "createdBy": [],
+      "updatedBy": [],
+      "password": "Avcvg456#",
+      "firstName": "Evie",
+      "lastName": "Amelia",
+      "badgeNo": "BG-200105",
+      "userrole-code": "BS-UR-1005",
+      "code": "BS-US-1005",
+      "userroleId": [
+        {
+          "_id": "6090fcfbdbff673b105e7942",
+          "name": "Nurse",
+          "createdBy": "608805691bc7ee2c60b7dd08",
+          "updatedBy": "608805691bc7ee2c60b7dd08",
+          "code": "BS-UR-1005",
+          "description": "Nurses provide ongoing care.",
+          "module-code": "BS-MO-1003,BS-MO-1005",
+          "moduleId": [
+            "6090fcf5dbff673b105e78f0",
+            "6090fcf5dbff673b105e78f2"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "6090fd0bdbff673b105e799d",
+      "username": "mia",
+      "createdBy": [],
+      "updatedBy": [],
+      "password": "Acvf#$78",
+      "firstName": "Mia",
+      "lastName": "Ella",
+      "badgeNo": "BG-200106",
+      "userrole-code": "BS-UR-1006",
+      "code": "BS-US-1006",
+      "userroleId": [
+        {
+          "_id": "6090fcfbdbff673b105e7943",
+          "name": "Clinical assistants",
+          "createdBy": "608805691bc7ee2c60b7dd08",
+          "updatedBy": "608805691bc7ee2c60b7dd08",
+          "code": "BS-UR-1006",
+          "description": "Take care of ward housekeeping",
+          "module-code": "BS-MO-1001,BS-MO-1002",
+          "moduleId": [
+            "6090fcf5dbff673b105e78ee",
+            "6090fcf5dbff673b105e78ef"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "6090fd0bdbff673b105e799e",
+      "username": "megan",
+      "createdBy": [],
+      "updatedBy": [],
+      "password": "Adsdxvc$%6",
+      "firstName": "Lucy",
+      "lastName": "Meghan",
+      "badgeNo": "BG-200107",
+      "userrole-code": "BS-UR-1001",
+      "code": "BS-US-1007",
+      "userroleId": [
+        {
+          "_id": "6090fcfbdbff673b105e793e",
+          "name": "Owner",
+          "createdBy": "608805691bc7ee2c60b7dd08",
+          "updatedBy": "608805691bc7ee2c60b7dd08",
+          "code": "BS-UR-1001",
+          "description": "Owner of the hospital",
+          "module-code": "BS-MO-1001",
+          "moduleId": "6090fcf5dbff673b105e78ee"
+        }
+      ]
+    },
+    {
+      "_id": "6090fd0bdbff673b105e799f",
+      "username": "ava",
+      "createdBy": [],
+      "updatedBy": [],
+      "password": "Avcvg456#",
+      "firstName": "Ava",
+      "lastName": "Holly",
+      "badgeNo": "BG-200108",
+      "userrole-code": "BS-UR-1002",
+      "code": "BS-US-1008",
+      "userroleId": [
+        {
+          "_id": "6090fcfbdbff673b105e793f",
+          "name": "Manager",
+          "createdBy": "608805691bc7ee2c60b7dd08",
+          "updatedBy": "608805691bc7ee2c60b7dd08",
+          "code": "BS-UR-1002",
+          "description": "Manage the services",
+          "module-code": "BS-MO-1001,BS-MO-1002",
+          "moduleId": [
+            "6090fcf5dbff673b105e78ee",
+            "6090fcf5dbff673b105e78ef"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "6090fd0bdbff673b105e79a0",
+      "username": "millie",
+      "createdBy": [],
+      "updatedBy": [],
+      "password": "Acvf#$78",
+      "firstName": "Millie",
+      "lastName": "Hannah",
+      "badgeNo": "BG-200109",
+      "userrole-code": "BS-UR-1003",
+      "code": "BS-US-1009",
+      "userroleId": [
+        {
+          "_id": "6090fcfbdbff673b105e7940",
+          "name": "Receptionist",
+          "createdBy": "608805691bc7ee2c60b7dd08",
+          "updatedBy": "608805691bc7ee2c60b7dd08",
+          "code": "BS-UR-1003",
+          "description": "Staff the ward reception desks.",
+          "module-code": "BS-MO-1003,BS-MO-1005",
+          "moduleId": [
+            "6090fcf5dbff673b105e78f0",
+            "6090fcf5dbff673b105e78f2"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "6090fd0bdbff673b105e79a1",
+      "username": "daisy",
+      "createdBy": [],
+      "updatedBy": [],
+      "password": "Adsdxvc$%6",
+      "firstName": "Daisy",
+      "lastName": "Phobe",
+      "badgeNo": "BG-200110",
+      "userrole-code": "BS-UR-1004",
+      "code": "BS-US-1010",
+      "userroleId": [
+        {
+          "_id": "6090fcfbdbff673b105e7941",
+          "name": "Doctor",
+          "createdBy": "608805691bc7ee2c60b7dd08",
+          "updatedBy": "608805691bc7ee2c60b7dd08",
+          "code": "BS-UR-1004",
+          "description": "Doctors assess and manage your medical treatment.",
+          "module-code": "BS-MO-1001,BS-MO-1002",
+          "moduleId": [
+            "6090fcf5dbff673b105e78ee",
+            "6090fcf5dbff673b105e78ef"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "6090fd0bdbff673b105e79a2",
+      "username": "priya",
+      "createdBy": [],
+      "updatedBy": [],
+      "password": "Avcvg456#",
+      "firstName": "Priya",
+      "lastName": "Roy",
+      "badgeNo": "BG-200111",
+      "userrole-code": "BS-UR-1005",
+      "code": "BS-US-1011",
+      "userroleId": [
+        {
+          "_id": "6090fcfbdbff673b105e7942",
+          "name": "Nurse",
+          "createdBy": "608805691bc7ee2c60b7dd08",
+          "updatedBy": "608805691bc7ee2c60b7dd08",
+          "code": "BS-UR-1005",
+          "description": "Nurses provide ongoing care.",
+          "module-code": "BS-MO-1003,BS-MO-1005",
+          "moduleId": [
+            "6090fcf5dbff673b105e78f0",
+            "6090fcf5dbff673b105e78f2"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "6090fd0bdbff673b105e79a3",
+      "username": "amy",
+      "createdBy": [],
+      "updatedBy": [],
+      "password": "Acvf#$78",
+      "firstName": "Amy",
+      "lastName": "Isla",
+      "badgeNo": "BG-200112",
+      "userrole-code": "BS-UR-1006",
+      "code": "BS-US-1012",
+      "userroleId": [
+        {
+          "_id": "6090fcfbdbff673b105e7943",
+          "name": "Clinical assistants",
+          "createdBy": "608805691bc7ee2c60b7dd08",
+          "updatedBy": "608805691bc7ee2c60b7dd08",
+          "code": "BS-UR-1006",
+          "description": "Take care of ward housekeeping",
+          "module-code": "BS-MO-1001,BS-MO-1002",
+          "moduleId": [
+            "6090fcf5dbff673b105e78ee",
+            "6090fcf5dbff673b105e78ef"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "6090fd0bdbff673b105e79a4",
+      "username": "alice",
+      "createdBy": [],
+      "updatedBy": [],
+      "password": "Adsdxvc$%6",
+      "firstName": "Alice",
+      "lastName": "Catlin",
+      "badgeNo": "BG-200113",
+      "userrole-code": "BS-UR-1001",
+      "code": "BS-US-1013",
+      "userroleId": [
+        {
+          "_id": "6090fcfbdbff673b105e793e",
+          "name": "Owner",
+          "createdBy": "608805691bc7ee2c60b7dd08",
+          "updatedBy": "608805691bc7ee2c60b7dd08",
+          "code": "BS-UR-1001",
+          "description": "Owner of the hospital",
+          "module-code": "BS-MO-1001",
+          "moduleId": "6090fcf5dbff673b105e78ee"
+        }
+      ]
+    },
+    {
+      "_id": "6090fd0bdbff673b105e79a5",
+      "username": "jasmine",
+      "createdBy": [],
+      "updatedBy": [],
+      "password": "Avcvg456#",
+      "firstName": "Leah",
+      "lastName": "Jasmine",
+      "badgeNo": "BG-200114",
+      "userrole-code": "BS-UR-1002",
+      "code": "BS-US-1014",
+      "userroleId": [
+        {
+          "_id": "6090fcfbdbff673b105e793f",
+          "name": "Manager",
+          "createdBy": "608805691bc7ee2c60b7dd08",
+          "updatedBy": "608805691bc7ee2c60b7dd08",
+          "code": "BS-UR-1002",
+          "description": "Manage the services",
+          "module-code": "BS-MO-1001,BS-MO-1002",
+          "moduleId": [
+            "6090fcf5dbff673b105e78ee",
+            "6090fcf5dbff673b105e78ef"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "6090fd0bdbff673b105e79a6",
+      "username": "lilly",
+      "createdBy": [],
+      "updatedBy": [],
+      "password": "Acvf#$79",
+      "firstName": "Amber",
+      "lastName": "Lilly",
+      "badgeNo": "BG-200115",
+      "userrole-code": "BS-UR-1003",
+      "code": "BS-US-1015",
+      "userroleId": [
+        {
+          "_id": "6090fcfbdbff673b105e7940",
+          "name": "Receptionist",
+          "createdBy": "608805691bc7ee2c60b7dd08",
+          "updatedBy": "608805691bc7ee2c60b7dd08",
+          "code": "BS-UR-1003",
+          "description": "Staff the ward reception desks.",
+          "module-code": "BS-MO-1003,BS-MO-1005",
+          "moduleId": [
+            "6090fcf5dbff673b105e78f0",
+            "6090fcf5dbff673b105e78f2"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "6090fd0bdbff673b105e79a7",
+      "username": "isobel",
+      "createdBy": [],
+      "updatedBy": [],
+      "password": "Adsdxvc$%7",
+      "firstName": "Isobel",
+      "lastName": "Anna",
+      "badgeNo": "BG-200116",
+      "userrole-code": "BS-UR-1004",
+      "code": "BS-US-1016",
+      "userroleId": [
+        {
+          "_id": "6090fcfbdbff673b105e7941",
+          "name": "Doctor",
+          "createdBy": "608805691bc7ee2c60b7dd08",
+          "updatedBy": "608805691bc7ee2c60b7dd08",
+          "code": "BS-UR-1004",
+          "description": "Doctors assess and manage your medical treatment.",
+          "module-code": "BS-MO-1001,BS-MO-1002",
+          "moduleId": [
+            "6090fcf5dbff673b105e78ee",
+            "6090fcf5dbff673b105e78ef"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "6090fd0bdbff673b105e79a8",
+      "username": "tia",
+      "createdBy": [],
+      "updatedBy": [],
+      "password": "Avcvg456#",
+      "firstName": "Tia",
+      "lastName": "Tagur",
+      "badgeNo": "BG-200117",
+      "userrole-code": "BS-UR-1005",
+      "code": "BS-US-1017",
+      "userroleId": [
+        {
+          "_id": "6090fcfbdbff673b105e7942",
+          "name": "Nurse",
+          "createdBy": "608805691bc7ee2c60b7dd08",
+          "updatedBy": "608805691bc7ee2c60b7dd08",
+          "code": "BS-UR-1005",
+          "description": "Nurses provide ongoing care.",
+          "module-code": "BS-MO-1003,BS-MO-1005",
+          "moduleId": [
+            "6090fcf5dbff673b105e78f0",
+            "6090fcf5dbff673b105e78f2"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "6090fd0bdbff673b105e79a9",
+      "username": "maya",
+      "createdBy": [],
+      "updatedBy": [],
+      "password": "Acvf#$80",
+      "firstName": "Maya",
+      "lastName": "Zoe",
+      "badgeNo": "BG-200118",
+      "userrole-code": "BS-UR-1006",
+      "code": "BS-US-1018",
+      "userroleId": [
+        {
+          "_id": "6090fcfbdbff673b105e7943",
+          "name": "Clinical assistants",
+          "createdBy": "608805691bc7ee2c60b7dd08",
+          "updatedBy": "608805691bc7ee2c60b7dd08",
+          "code": "BS-UR-1006",
+          "description": "Take care of ward housekeeping",
+          "module-code": "BS-MO-1001,BS-MO-1002",
+          "moduleId": [
+            "6090fcf5dbff673b105e78ee",
+            "6090fcf5dbff673b105e78ef"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "6090fd0bdbff673b105e79aa",
+      "username": "julia",
+      "createdBy": [],
+      "updatedBy": [],
+      "password": "Adsdxvc$%8",
+      "firstName": "Faith",
+      "lastName": "Julia",
+      "badgeNo": "BG-200119",
+      "userrole-code": "BS-UR-1001",
+      "code": "BS-US-1019",
+      "userroleId": [
+        {
+          "_id": "6090fcfbdbff673b105e793e",
+          "name": "Owner",
+          "createdBy": "608805691bc7ee2c60b7dd08",
+          "updatedBy": "608805691bc7ee2c60b7dd08",
+          "code": "BS-UR-1001",
+          "description": "Owner of the hospital",
+          "module-code": "BS-MO-1001",
+          "moduleId": "6090fcf5dbff673b105e78ee"
+        }
+      ]
+    },
+    {
+      "_id": "6090fd0bdbff673b105e79ab",
+      "username": "maryam",
+      "createdBy": [],
+      "updatedBy": [],
+      "password": "Avcvg456#",
+      "firstName": "Esme",
+      "lastName": "Maryam",
+      "badgeNo": "BG-200120",
+      "userrole-code": "BS-UR-1002",
+      "code": "BS-US-1020",
+      "userroleId": [
+        {
+          "_id": "6090fcfbdbff673b105e793f",
+          "name": "Manager",
+          "createdBy": "608805691bc7ee2c60b7dd08",
+          "updatedBy": "608805691bc7ee2c60b7dd08",
+          "code": "BS-UR-1002",
+          "description": "Manage the services",
+          "module-code": "BS-MO-1001,BS-MO-1002",
+          "moduleId": [
+            "6090fcf5dbff673b105e78ee",
+            "6090fcf5dbff673b105e78ef"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "6090fd0bdbff673b105e79ac",
+      "username": "tilly",
+      "createdBy": [],
+      "updatedBy": [],
+      "password": "Acvf#$81",
+      "firstName": "Tilly",
+      "lastName": "Joy",
+      "badgeNo": "BG-200121",
+      "userrole-code": "BS-UR-1003",
+      "code": "BS-US-1021",
+      "userroleId": [
+        {
+          "_id": "6090fcfbdbff673b105e7940",
+          "name": "Receptionist",
+          "createdBy": "608805691bc7ee2c60b7dd08",
+          "updatedBy": "608805691bc7ee2c60b7dd08",
+          "code": "BS-UR-1003",
+          "description": "Staff the ward reception desks.",
+          "module-code": "BS-MO-1003,BS-MO-1005",
+          "moduleId": [
+            "6090fcf5dbff673b105e78f0",
+            "6090fcf5dbff673b105e78f2"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "6090fd0bdbff673b105e79ad",
+      "username": "jacky",
+      "createdBy": [],
+      "updatedBy": [],
+      "password": "Adsdxvc$%9",
+      "firstName": "Jacky",
+      "lastName": "Chandh",
+      "badgeNo": "BG-200122",
+      "userrole-code": "BS-UR-1004",
+      "code": "BS-US-1022",
+      "userroleId": [
+        {
+          "_id": "6090fcfbdbff673b105e7941",
+          "name": "Doctor",
+          "createdBy": "608805691bc7ee2c60b7dd08",
+          "updatedBy": "608805691bc7ee2c60b7dd08",
+          "code": "BS-UR-1004",
+          "description": "Doctors assess and manage your medical treatment.",
+          "module-code": "BS-MO-1001,BS-MO-1002",
+          "moduleId": [
+            "6090fcf5dbff673b105e78ee",
+            "6090fcf5dbff673b105e78ef"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "6090fd0bdbff673b105e79ae",
+      "username": "oliver",
+      "createdBy": [],
+      "updatedBy": [],
+      "password": "Avcvg456#",
+      "firstName": "Thomas",
+      "lastName": "Oliver",
+      "badgeNo": "BG-200123",
+      "userrole-code": "BS-UR-1005",
+      "code": "BS-US-1023",
+      "userroleId": [
+        {
+          "_id": "6090fcfbdbff673b105e7942",
+          "name": "Nurse",
+          "createdBy": "608805691bc7ee2c60b7dd08",
+          "updatedBy": "608805691bc7ee2c60b7dd08",
+          "code": "BS-UR-1005",
+          "description": "Nurses provide ongoing care.",
+          "module-code": "BS-MO-1003,BS-MO-1005",
+          "moduleId": [
+            "6090fcf5dbff673b105e78f0",
+            "6090fcf5dbff673b105e78f2"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "6090fd0bdbff673b105e79af",
+      "username": "james",
+      "createdBy": [],
+      "updatedBy": [],
+      "password": "Acvf#$82",
+      "firstName": "James",
+      "lastName": "William",
+      "badgeNo": "BG-200124",
+      "userrole-code": "BS-UR-1006",
+      "code": "BS-US-1024",
+      "userroleId": [
+        {
+          "_id": "6090fcfbdbff673b105e7943",
+          "name": "Clinical assistants",
+          "createdBy": "608805691bc7ee2c60b7dd08",
+          "updatedBy": "608805691bc7ee2c60b7dd08",
+          "code": "BS-UR-1006",
+          "description": "Take care of ward housekeeping",
+          "module-code": "BS-MO-1001,BS-MO-1002",
+          "moduleId": [
+            "6090fcf5dbff673b105e78ee",
+            "6090fcf5dbff673b105e78ef"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "6090fd0bdbff673b105e79b0",
+      "username": "mohammad",
+      "createdBy": [],
+      "updatedBy": [],
+      "password": "Adsdxvc$%10",
+      "firstName": "Mohammad",
+      "lastName": "Shaik",
+      "badgeNo": "BG-200125",
+      "userrole-code": "BS-UR-1001",
+      "code": "BS-US-1025",
+      "userroleId": [
+        {
+          "_id": "6090fcfbdbff673b105e793e",
+          "name": "Owner",
+          "createdBy": "608805691bc7ee2c60b7dd08",
+          "updatedBy": "608805691bc7ee2c60b7dd08",
+          "code": "BS-UR-1001",
+          "description": "Owner of the hospital",
+          "module-code": "BS-MO-1001",
+          "moduleId": "6090fcf5dbff673b105e78ee"
+        }
+      ]
+    },
+    {
+      "_id": "6090fd0bdbff673b105e79b1",
+      "username": "zak",
+      "createdBy": [],
+      "updatedBy": [],
+      "password": "Avcvg456#",
+      "firstName": "Zak",
+      "lastName": "Sean",
+      "badgeNo": "BG-200126",
+      "userrole-code": "BS-UR-1002",
+      "code": "BS-US-1026",
+      "userroleId": [
+        {
+          "_id": "6090fcfbdbff673b105e793f",
+          "name": "Manager",
+          "createdBy": "608805691bc7ee2c60b7dd08",
+          "updatedBy": "608805691bc7ee2c60b7dd08",
+          "code": "BS-UR-1002",
+          "description": "Manage the services",
+          "module-code": "BS-MO-1001,BS-MO-1002",
+          "moduleId": [
+            "6090fcf5dbff673b105e78ee",
+            "6090fcf5dbff673b105e78ef"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "6090fd0bdbff673b105e79b2",
+      "username": "morgan",
+      "createdBy": [],
+      "updatedBy": [],
+      "password": "Acvf#$83",
+      "firstName": "Billy",
+      "lastName": "Morgan",
+      "badgeNo": "BG-200127",
+      "userrole-code": "BS-UR-1003",
+      "code": "BS-US-1027",
+      "userroleId": [
+        {
+          "_id": "6090fcfbdbff673b105e7940",
+          "name": "Receptionist",
+          "createdBy": "608805691bc7ee2c60b7dd08",
+          "updatedBy": "608805691bc7ee2c60b7dd08",
+          "code": "BS-UR-1003",
+          "description": "Staff the ward reception desks.",
+          "module-code": "BS-MO-1003,BS-MO-1005",
+          "moduleId": [
+            "6090fcf5dbff673b105e78f0",
+            "6090fcf5dbff673b105e78f2"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "6090fd0bdbff673b105e79b3",
+      "username": "jay",
+      "createdBy": [],
+      "updatedBy": [],
+      "password": "Adsdxvc$%11",
+      "firstName": "Ewan",
+      "lastName": "Jay",
+      "badgeNo": "BG-200128",
+      "userrole-code": "BS-UR-1004",
+      "code": "BS-US-1028",
+      "userroleId": [
+        {
+          "_id": "6090fcfbdbff673b105e7941",
+          "name": "Doctor",
+          "createdBy": "608805691bc7ee2c60b7dd08",
+          "updatedBy": "608805691bc7ee2c60b7dd08",
+          "code": "BS-UR-1004",
+          "description": "Doctors assess and manage your medical treatment.",
+          "module-code": "BS-MO-1001,BS-MO-1002",
+          "moduleId": [
+            "6090fcf5dbff673b105e78ee",
+            "6090fcf5dbff673b105e78ef"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "6090fd0bdbff673b105e79b4",
+      "username": "jackk",
+      "createdBy": [],
+      "updatedBy": [],
+      "password": "Abc123#$",
+      "firstName": "Jack",
+      "lastName": "Joe",
+      "badgeNo": "BG-200129",
+      "userrole-code": "BS-UR-1005",
+      "code": "BS-US-1029",
+      "userroleId": [
+        {
+          "_id": "6090fcfbdbff673b105e7942",
+          "name": "Nurse",
+          "createdBy": "608805691bc7ee2c60b7dd08",
+          "updatedBy": "608805691bc7ee2c60b7dd08",
+          "code": "BS-UR-1005",
+          "description": "Nurses provide ongoing care.",
+          "module-code": "BS-MO-1003,BS-MO-1005",
+          "moduleId": [
+            "6090fcf5dbff673b105e78f0",
+            "6090fcf5dbff673b105e78f2"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "6090fd0bdbff673b105e79b5",
+      "username": "jhan",
+      "createdBy": [],
+      "updatedBy": [],
+      "password": "Def456#$",
+      "firstName": "Jhan",
+      "lastName": "chandh",
+      "badgeNo": "BG-200130",
+      "userrole-code": "BS-UR-1006",
+      "code": "BS-US-1030",
+      "userroleId": [
+        {
+          "_id": "6090fcfbdbff673b105e7943",
+          "name": "Clinical assistants",
+          "createdBy": "608805691bc7ee2c60b7dd08",
+          "updatedBy": "608805691bc7ee2c60b7dd08",
+          "code": "BS-UR-1006",
+          "description": "Take care of ward housekeeping",
+          "module-code": "BS-MO-1001,BS-MO-1002",
+          "moduleId": [
+            "6090fcf5dbff673b105e78ee",
+            "6090fcf5dbff673b105e78ef"
+          ]
+        }
+      ]
+    }
+  ],
+  "error": null
+}

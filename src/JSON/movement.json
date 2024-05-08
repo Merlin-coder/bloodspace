@@ -1,0 +1,188 @@
+{
+    "status": true,
+    "message": "Fetch Successful",
+    "page": {
+        "hasNextPage": false,
+        "totalCount": 6,
+        "currentPage": 1,
+        "filterCount": 10,
+        "totalPage": 1
+    },
+    "displayConfig": [
+        {
+            "text": "Header 1",
+            "align": "left",
+            "valKey": "header1"
+        },
+        {
+            "text": "Header 2",
+            "align": "left",
+            "valKey": "header2"
+        },
+        {
+            "text": "Header 3",
+            "align": "left",
+            "valKey": "header3"
+        },
+        {
+            "text": "Header 4",
+            "align": "left",
+            "valKey": "header4"
+        },
+        {
+            "text": "Header 5",
+            "align": "left",
+            "valKey": "header5"
+        },
+        {
+            "text": "Header 6",
+            "align": "left",
+            "valKey": "header6"
+        },
+        {
+            "text": "Status",
+            "align": "left",
+            "valKey": "status"
+        },
+        {
+            "text": "Actions",
+            "align": "center  ",
+            "valKey": "@"
+        }
+    ],
+    "data": [
+        {
+            "_id": "602cf01e43d31105b03c1e44",
+            "header1": "Value here",
+            "header2": "Value here",
+            "header3": "Value here",
+            "header4": "Longer value here",
+            "header5": "Longer Value here",
+            "header6": "Value here",
+            "status": "Value here",
+            "__v": 0
+        },
+        {
+            "_id": "602cf01e43d31105b03c1e45",
+            "header1": "Value here",
+            "header2": "Value here",
+            "header3": "Value here",
+            "header4": "Longer value here",
+            "header5": "Longer Value here",
+            "header6": "Value here",
+            "status": "Value here",
+            "__v": 0
+        },
+        {
+            "_id": "602cf01e43d31105b03c1e46",
+            "header1": "Value here",
+            "header2": "Value here",
+            "header3": "Value here",
+            "header4": "Longer value here",
+            "header5": "Longer Value here",
+            "header6": "Value here",
+            "status": "Value here",
+            "__v": 0
+        },
+        {
+            "_id": "602cf01e43d31105b03c1e47",
+            "header1": "Value here",
+            "header2": "Value here",
+            "header3": "Value here",
+            "header4": "Longer value here",
+            "header5": "Longer Value here",
+            "header6": "Value here",
+            "status": "Value here",
+            "__v": 0
+        },
+        {
+            "_id": "602cf01e43d31105b03c1e48",
+            "header1": "Value here",
+            "header2": "Value here",
+            "header3": "Value here",
+            "header4": "Longer value here",
+            "header5": "Longer Value here",
+            "header6": "Value here",
+            "status": "Value here",
+            "__v": 0
+        },
+        {
+            "_id": "602cf01e43d31105b03c1e49",
+            "header1": "Value here",
+            "header2": "Value here",
+            "header3": "Value here",
+            "header4": "Longer value here",
+            "header5": "Longer Value here",
+            "header6": "Value here",
+            "status": "Value here",
+            "__v": 0
+        },
+        {
+            "_id": "602cf01e43d31105b03c1e54",
+            "header1": "Value here",
+            "header2": "Value here",
+            "header3": "Value here",
+            "header4": "Longer value here",
+            "header5": "Longer Value here",
+            "header6": "Value here",
+            "status": "Value here",
+            "__v": 0
+        },
+        {
+            "_id": "602cf01e43d31105b03c1e55",
+            "header1": "Value here",
+            "header2": "Value here",
+            "header3": "Value here",
+            "header4": "Longer value here",
+            "header5": "Longer Value here",
+            "header6": "Value here",
+            "status": "Value here",
+            "__v": 0
+        },
+        {
+            "_id": "602cf01e43d31105b03c1e56",
+            "header1": "Value here",
+            "header2": "Value here",
+            "header3": "Value here",
+            "header4": "Longer value here",
+            "header5": "Longer Value here",
+            "header6": "Value here",
+            "status": "Value here",
+            "__v": 0
+        },
+        {
+            "_id": "602cf01e43d31105b03c1e57",
+            "header1": "Value here",
+            "header2": "Value here",
+            "header3": "Value here",
+            "header4": "Longer value here",
+            "header5": "Longer Value here",
+            "header6": "Value here",
+            "status": "Value here",
+            "__v": 0
+        },
+        {
+            "_id": "602cf01e43d31105b03c1e58",
+            "header1": "Value here",
+            "header2": "Value here",
+            "header3": "Value here",
+            "header4": "Longer value here",
+            "header5": "Longer Value here",
+            "header6": "Value here",
+            "status": "Value here",
+            "__v": 0
+        },
+        {
+            "_id": "602cf01e43d31105b03c1e59",
+            "header1": "Value here",
+            "header2": "Value here",
+            "header3": "Value here",
+            "header4": "Longer value here",
+            "header5": "Longer Value here",
+            "header6": "Value here",
+            "status": "Value here",
+            "__v": 0
+        }
+    ],
+    "error": null
+}

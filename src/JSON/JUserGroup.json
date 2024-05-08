@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "userGroupId": "BSU001",
+      "description": "User Group 1"
+    },
+    {
+      "userGroupId": "BSU002",
+      "description": "User Group 2"
+    },
+    {
+      "userGroupId": "BSU003",
+      "description": "User Group 3"
+    },
+    {
+      "userGroupId": "BSU004",
+      "description": "User Group 4"
+    },
+    {
+      "userGroupId": "BSU005",
+      "description": "User Group 5"
+    },
+    {
+      "userGroupId": "BSU006",
+      "description": "User Group 6"
+    }
+  ]
+}

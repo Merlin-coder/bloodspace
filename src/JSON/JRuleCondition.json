@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "ruleId": "BSR0001",
+      "ruleType": "Temperature",
+      "condition": "minmax",
+      "labels": [
+        "Minimum",
+        "Maximum"
+      ]
+    },
+    {
+      "ruleId": "BSR0002",
+      "ruleType": "Device Group",
+      "condition": "dropDownDevice",
+      "labels": [
+        "Device Group"
+      ]
+    },
+    {
+      "ruleId": "BSR0003",
+      "ruleType": "Reactivate",
+      "condition": "minmax",
+      "labels": [
+        "Time",
+        "Time out"
+      ]
+    },
+    {
+      "ruleId": "BSR0004",
+      "ruleType": "User Group",
+      "condition": "dropDownUser",
+      "labels": [
+        "User Group"
+      ]
+    },
+    {
+      "ruleId": "BSR0005",
+      "ruleType": "Transport",
+      "condition": "dropDownTransport",
+      "labels": [
+        "Transport Group"
+      ]
+    },
+    {
+      "ruleId": "BSR0006",
+      "ruleType": "Expired",
+      "condition": "dropDownUser",
+      "labels": [
+        "User Group"
+      ]
+    }
+  ]
+}

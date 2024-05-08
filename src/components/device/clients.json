@@ -1,0 +1,180 @@
+{
+    "status": true,
+    "message": "Fetch Successful",
+    "page": {
+        "hasNextPage": true,
+        "totalCount": 8,
+        "currentPage": 1,
+        "filterCount": 15,
+        "totalPage": 2
+    },
+    "data": [
+        {
+            "_id": "6020e3433a5d292620bb0b72",
+            "isActive": true,
+            "isDeleted": true,
+            "name": "Hospital 1",
+            "code": "1005",
+            "address1": "Tenali",
+            "address2": "hyd",
+            "city": "tenali",
+            "state": "guntur",
+            "metaData": [
+                {
+                    "key": "firstName",
+                    "value": "Shashi",
+                    "type": "String"
+                },
+                {
+                    "key": "lastName",
+                    "value": "SD",
+                    "type": "String"
+                },
+                {
+                    "key": "badgeNumber",
+                    "value": "B00013",
+                    "type": "String"
+                }
+            ],
+            "updatedBy": "600bd6d3ef92c227cc75bea3",
+            "createdBy": "600bd6d3ef92c227cc75bea3",
+            "createdAt": "2021-02-08T07:07:47.492Z",
+            "updatedAt": "2021-02-08T07:15:44.719Z",
+            "__v": 0
+        },
+        {
+            "_id": "6020e2463a5d292620bb0b71",
+            "isActive": true,
+            "isDeleted": false,
+            "name": "Hospital 2",
+            "code": "1003",
+            "address1": "America",
+            "address2": "hyd",
+            "city": "tenali",
+            "state": "guntur",
+            "metaData": [
+                {
+                    "key": "firstName",
+                    "value": "Shashi",
+                    "type": "String"
+                },
+                {
+                    "key": "lastName",
+                    "value": "SD",
+                    "type": "String"
+                },
+                {
+                    "key": "badgeNumber",
+                    "value": "B00013",
+                    "type": "String"
+                }
+            ],
+            "updatedBy": "600bd6d3ef92c227cc75bea3",
+            "createdBy": "600bd6d3ef92c227cc75bea3",
+            "createdAt": "2021-02-08T07:03:34.675Z",
+            "updatedAt": "2021-02-08T07:03:34.675Z",
+            "__v": 0
+        },
+        {
+            "_id": "6020e2053a5d292620bb0b70",
+            "isActive": true,
+            "isDeleted": false,
+            "name": "Hospital 3",
+            "code": "1003",
+            "address1": "America",
+            "address2": "hyd",
+            "city": "tenali",
+            "state": "guntur",
+            "metaData": [
+                {
+                    "key": "firstName",
+                    "value": "Shashi",
+                    "type": "String"
+                },
+                {
+                    "key": "lastName",
+                    "value": "SD",
+                    "type": "String"
+                },
+                {
+                    "key": "badgeNumber",
+                    "value": "B00013",
+                    "type": "String"
+                }
+            ],
+            "updatedBy": "600bd6d3ef92c227cc75bea3",
+            "createdBy": "600bd6d3ef92c227cc75bea3",
+            "createdAt": "2021-02-08T07:02:29.747Z",
+            "updatedAt": "2021-02-08T07:02:29.747Z",
+            "__v": 0
+        },
+        {
+            "_id": "601a34c4198fd21ee461c91a",
+            "isActive": true,
+            "isDeleted": false,
+            "name": "Hospital 4",
+            "code": "1003",
+            "address1": "America",
+            "address2": "hyd",
+            "city": "tenali",
+            "state": "guntur",
+            "metaData": [
+                {
+                    "key": "firstName",
+                    "value": "Shashi",
+                    "type": "String"
+                },
+                {
+                    "key": "lastName",
+                    "value": "SD",
+                    "type": "String"
+                },
+                {
+                    "key": "badgeNumber",
+                    "value": "B00013",
+                    "type": "String"
+                }
+            ],
+            "updatedBy": "600bd6d3ef92c227cc75bea3",
+            "createdBy": "600bd6d3ef92c227cc75bea3",
+            "createdAt": "2021-02-03T05:29:40.074Z",
+            "updatedAt": "2021-02-03T05:29:40.074Z",
+            "__v": 0
+        },
+
+        {
+            "_id": "6017860cd162e128cc297e7c",
+            "isActive": true,
+            "isDeleted": false,
+            "name": "Hospital 5",
+            "code": "1003",
+            "address1": "Gujarath",
+            "address2": "Hyderabad",
+            "city": "tenali",
+            "state": "guntur",
+            "metaData": [
+                {
+                    "key": "firstName",
+                    "value": "prathyu",
+                    "type": "String"
+                },
+                {
+                    "key": "lastName",
+                    "value": "r",
+                    "type": "String"
+                },
+                {
+                    "key": "badgeNumber",
+                    "value": "B00013",
+                    "type": "String"
+                }
+            ],
+            "updatedBy": "600bd6d3ef92c227cc75bea3",
+            "createdBy": "600bd6d3ef92c227cc75bea3",
+            "createdAt": "2021-02-01T04:39:40.488Z",
+            "updatedAt": "2021-02-01T04:39:40.488Z",
+            "__v": 0
+        }
+    ],
+    "error": null
+}

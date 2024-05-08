@@ -1,0 +1,295 @@
+import { makeStyles } from '@material-ui/core';
+
+export const useStyles = makeStyles(
+    (theme) => ({
+        firstDiv: {
+            padding: '10px 4px',
+            maxWidth: '1600px',
+            margin: '0 auto',
+            marginTop: '30px'
+        },
+        header: {
+            padding: '10px 0px',
+
+            maxWidth: '1600px',
+            margin: '0 auto',
+            marginLeft: '11px'
+        },
+        xs4Grid: {
+            flexGrow: '0',
+            maxWidth: '35.333333%',
+            flexBasis: '35.333333% '
+        },
+        xs8Grid: {
+            flexGrow: '0',
+            maxWidth: '64.6666%',
+            flexBasis: '64.6666% '
+        },
+        totalNo: {
+            fontSize: '18px',
+            color: theme.palette.colors.gray.dark,
+            fontWeight: '300'
+        },
+        a: {
+            textDecoration: 'none',
+            color: 'inherit'
+        },
+        figures: {
+            fontSize: '19px',
+            fontWeight: '600',
+            color: theme.palette.colors.black,
+            marginLeft: '5px'
+        },
+        detailCard: {
+            padding: '30px 50px',
+            minWidth: '210px',
+            boxShadow: '0 0 25px rgba(0,0,0,0.1)',
+            borderRadius: '10px',
+            minHeight: '250px'
+        },
+        tipsTypo: {
+            fontSize: 26,
+            fontWeight: 400,
+            color: theme.palette.colors.gray.main
+        },
+        tipsTypoSmall: {
+            fontSize: 16,
+            fontWeight: 300,
+            color: theme.palette.colors.gray.main
+        },
+        tipsTypoBlue: {
+            fontSize: 26,
+            fontWeight: 500,
+            color: theme.palette.primary.main
+        },
+        sideBar: {
+            // height: '93vh',
+            height: 'fit-content',
+            backgroundColor: '#fff',
+            width: '300px',
+            padding: '15px 25px !important',
+            borderRadius: '10px'
+        },
+        bigDetailCard: {
+            padding: '15px 50px',
+            minWidth: '210px',
+            boxShadow: '0 0 25px rgba(0,0,0,0.1)',
+            borderRadius: '10px',
+            minHeight: '361px'
+        },
+        smalldetailCardMain: {
+            padding: '15px 15px',
+            minWidth: '210px',
+            boxShadow: '0 0 25px rgba(0,0,0,0.1)',
+            borderRadius: '10px'
+        },
+        smalldetailCardMainError: {
+            padding: '15px 15px',
+            minWidth: '210px',
+            boxShadow: '0 0 25px rgba(0,0,0,0.1)',
+            borderRadius: '10px',
+            borderLeft: '10px solid #CC1414',
+        },
+        selectedButton: {
+            backgroundColor: theme.palette.background.dark,
+            padding: '8px 35px',
+            textTransform: 'capitalize',
+            '&:hover': {
+                backgroundColor: theme.palette.background.dark
+            }
+        },
+        disabledButton: {
+            backgroundColor: theme.palette.colors.white,
+            padding: '8px 35px',
+            textTransform: 'capitalize',
+            color: theme.palette.colors.gray.dark,
+            border: `1px solid ${theme.palette.background.dark}`,
+            '&:hover': {
+                backgroundColor: theme.palette.colors.white,
+                border: `1px solid ${theme.palette.background.dark}`
+            }
+        },
+        detailCardTable: {
+            padding: '30px 50px',
+            minWidth: '210px',
+            boxShadow: '0 0 25px rgba(0,0,0,0.1)',
+            borderRadius: '10px'
+        },
+        Main: {
+            padding: '20px 25px',
+            minWidth: '210px',
+            boxShadow: '0 0 25px rgba(0,0,0,0.1)',
+            borderRadius: '10px'
+        },
+        iconContainer: {
+            marginLeft: '-5px'
+        },
+        cardIcon: {
+            fontSize: '33px',
+            marginLeft: '8px',
+            marginTop: '4px'
+        },
+        cardMainText: {
+            fontSize: '22px',
+            fontWeight: '500',
+            color: theme.palette.primary.main
+        },
+        iconValue: {
+            fontSize: '40px',
+            fontWeight: '600'
+        },
+        cardSubText: {
+            fontSize: '15px',
+            fontWeight: '400',
+            color: theme.palette.colors.gray.main
+        },
+        boxShadow: {
+            boxShadow: '0 0 25px rgb(0 0 0 / 10%)'
+        },
+        numberSpan: {
+            fontWeight: '500',
+            marginLeft: '20px',
+            textAlign: 'justify',
+            color: theme.palette.colors.gray.main,
+            '&:hover': {
+                color: theme.palette.primary.main
+            }
+        },
+        smalldetailTitle: {
+            fontSize: '20px',
+            fontWeight: '600'
+        },
+        smallCardIcon: {
+            fontSize: '35px',
+            marginLeft: '-4px',
+            marginTop: '4px'
+        },
+        smallIconValue: {
+            fontSize: '25px',
+            fontWeight: '500'
+        },
+        resolution: {
+            fontSize: '17px',
+            color: theme.palette.colors.gray.main
+        },
+        resolutionRed: {
+            fontSize: '18px',
+            fontWeight: '500',
+            minWidth: 35,
+            justifyContent: 'center',
+            display: 'flex'
+        },
+        resolutionValue: {
+            fontSize: '18px',
+            fontWeight: '500',
+            color: '#247424',
+            minWidth: 35,
+            justifyContent: 'center',
+            display: 'flex'
+        },
+        selectedButtonGroup: {
+            backgroundColor: theme.palette.background.dark,
+            '&:hover': {
+                backgroundColor: theme.palette.background.dark
+            }
+        },
+        cardRootError: {
+            width: 372,
+            padding: 15,
+            boxShadow: 'rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px',
+            borderRadius: 10,
+            borderLeft: '13px solid #CC1414',
+            cursor: 'pointer',
+            marginBottom: '10px'
+        },
+        smalldetailCardError: {
+            padding: '5px 5px',
+            minWidth: '210px',
+            boxShadow: '0 0 25px rgba(0,0,0,0.1)',
+            borderRadius: '10px',
+            borderLeft: '13px solid #CC1414',
+        },
+
+        gridItem: {
+              marginLeft: '-5px'
+        },
+
+        smalldetailCard: {
+            padding: '5px 5px',
+            minWidth: '210px',
+            boxShadow: '0 0 25px rgba(0,0,0,0.1)',
+            borderRadius: '10px'
+        },
+        warning: { color: '#f44336' }
+        // detailFigure: {
+        //     fontSize: '20px',
+
+        // },
+        // detailFigureDesc: {
+        //     fontSize: '22px',
+
+        // },
+        // chartCard: {
+        //     padding: '15px 35px',
+        //     boxShadow: '0 0 25px rgba(0,0,0,0.18)',
+        //     borderRadius: '8px'
+        // },
+        // chartDiv: {
+        //     paddingTop: '0px',
+        //     padding: '10px 120px',
+        //     marginTop: '5px'
+        // },
+        // tab: {
+        //     '& .MuiTab-root': {
+        //         minWidth: '50px',
+        //         fontSize: '9.5px',
+        //         fontWeight: '600'
+        //     },
+        //     '& .MuiTab-textColorPrimary.Mui-selected': {
+        //         color: theme.palette.colors.gray.dark,
+        //         fontSize: '10.5px'
+        //     },
+        //     '& .MuiTabs-indicator': {
+        //         backgroundColor: theme.palette.colors.gray.main
+        //     }
+        // },
+        // barChart: {
+        //     marginTop: '40px',
+        //     paddingBottom: '10px'
+        // },
+        // top5design: {
+        //     fontWeight: 'bold'
+        // },
+        // DoughnutChart: {
+        //     marginTop: '20px',
+        //     marginBottom: '10px',
+        //     //  transform: 'rotate(90deg)'
+        //     width: '50%',
+        //     margin: '0 auto'
+        // },
+        // pieCustomer: {
+        //     paddingBottom: '14px',
+        //     paddingTop: '10px'
+        // },
+        // PieChart: {
+        //     marginTop: '13px',
+        //     marginBottom: '9px'
+        // },
+        // totalNoOF: {
+        //     fontSize: '13px',
+        //     fontWeight: '400',
+        //     color: theme.palette.colors.gray.dark,
+        //     opacity: '0.8',
+        //     padding: '11.5px 0'
+        // },
+        // noSpan: {
+        //     marginLeft: 'auto',
+        //     fontSize: '20px',
+        //     fontWeight: '300'
+        //     //color: theme.palette.colors.gray.dark,
+        //     //opacity: '0.9',
+        // }
+    }),
+
+    { index: 1 }
+);

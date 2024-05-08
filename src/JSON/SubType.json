@@ -1,0 +1,12 @@
+{
+    "data": [
+        {
+            "typeId": "BS001",
+            "description": "Warning"
+        },
+        {
+            "typeId": "BS002",
+            "description": "Alert"
+        }
+    ]
+}

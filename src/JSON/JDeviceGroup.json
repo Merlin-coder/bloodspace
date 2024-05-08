@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "deviceGroupId": "BSG001",
+      "description": "Device Group 1"
+    },
+    {
+      "deviceGroupId": "BSG002",
+      "description": "Device Group 2"
+    },
+    {
+      "deviceGroupId": "BSG003",
+      "description": "Device Group 3"
+    },
+    {
+      "deviceGroupId": "BSG004",
+      "description": "Device Group 4"
+    },
+    {
+      "deviceGroupId": "BSG005",
+      "description": "Device Group 5"
+    },
+    {
+      "deviceGroupId": "BSG006",
+      "description": "Device Group 6"
+    }
+  ]
+}

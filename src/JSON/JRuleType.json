@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "typeId": "BS001",
+      "description": "Red Blood Cells"
+    },
+    {
+      "typeId": "BS002",
+      "description": "Platelets"
+    },
+    {
+      "typeId": "BS003",
+      "description": "Plasma"
+    },
+    {
+      "typeId": "BS004",
+      "description": "Cryoprecipitate"
+    },
+    {
+      "typeId": "BS005",
+      "description": "Autologous"
+    }
+  ]
+}

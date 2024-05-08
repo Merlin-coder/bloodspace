@@ -1,0 +1,15 @@
+{
+        "data": [
+            { "label": "TOTAL VISITS", "value": "19" },
+            { "label": "LAST VISIT", "value": "06/04/2020" },
+            { "label": "TOTAL PURCHASE HISTORY", "value": "$ 5000" }
+        ],
+
+        "filters": [
+            { "label": "VIEWED", "value": "6", "filter": { "key": "status", "value": "viewed" } },
+            { "label": "SHARED", "value": "6", "filter": { "key": "status", "value": "viewed" } },
+            { "label": "PURCHASE", "value": "6", "filter": { "key": "status", "value": "viewed" } },
+            { "label": "QUOTE", "value": "6", "filter": { "key": "status", "value": "viewed" } }
+        ]
+}
+

@@ -1,0 +1,12 @@
+{
+  "data": [
+    {
+      "transportGroupId": "BSG001",
+      "description": "Cooler box"
+    },
+    {
+      "transportGroupId": "BSG002",
+      "description": "Hand carry"
+    }
+  ]
+}

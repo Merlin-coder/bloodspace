@@ -1,0 +1,71 @@
+{
+  "status": true,
+  "message": "Fetch Successful",
+  "page": {
+    "hasNextPage": false,
+    "totalCount": 6,
+    "currentPage": 1,
+    "filterCount": 10,
+    "totalPage": 1
+  },
+  "displayConfig": [
+    {
+      "text": "Rule",
+      "align": "left",
+      "valKey": "rule"
+    },
+    {
+      "text": "Resolution",
+      "align": "left",
+      "valKey": "header2"
+    },
+    {
+      "text": "Actions",
+      "align": "center  ",
+      "valKey": "@"
+    }
+  ],
+  "data": [
+    {
+      "rule": "Temperature : Min 2C, Max 6C",
+      "resolution": "Email to : User group",
+      "producyType": "BS001"
+    },
+    {
+      "rule": "Device Group: All device can store",
+      "resolution": "Popup to : All",
+      "producyType": "BS001"
+    },
+    {
+      "rule": "Reactivate:  Time 30 min, Time out 60 min",
+      "resolution": "Email to : User group",
+      "producyType": "BS001"
+    },
+    {
+      "rule": "User Group: All user can access",
+      "resolution": "Email to: User group",
+      "producyType": "BS001"
+    },
+    {
+      "rule": "Transport type: Collar box",
+      "resolution": "N/A",
+      "producyType": "BS001"
+    },
+    {
+      "rule": "Expired product can use by: User group 1",
+      "resolution": "N/A",
+      "producyType": "BS001"
+    },
+    {
+      "rule": "Nearest Expiry alert",
+      "resolution": "Email to: User group",
+      "producyType": "BS001"
+    },
+    {
+      "rule": "Nearest Expiry alert",
+      "resolution": "Email to: User group",
+      "producyType": "BS002"
+    }
+  ],
+  "error": null
+}

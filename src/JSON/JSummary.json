@@ -1,0 +1,41 @@
+{
+  "status": true,
+  "message": "Fetch Successful",
+  "page": {
+    "hasNextPage": false,
+    "totalCount": 6,
+    "currentPage": 1,
+    "filterCount": 10,
+    "totalPage": 1
+  },
+  "displayConfig": [
+    {
+      "text": "Product type",
+      "align": "left",
+      "valKey": "description"
+    }
+  ],
+  "data": [
+    {
+      "typeId": "BS001",
+      "description": "Red blood cell"
+    },
+    {
+      "typeId": "BS002",
+      "description": "Platelets"
+    },
+    {
+      "typeId": "BS003",
+      "description": "Plasma"
+    },
+    {
+      "typeId": "BS004",
+      "description": "Cryoprecipitate"
+    },
+    {
+      "typeId": "BS005",
+      "description": "Autologous"
+    }
+  ],
+  "error": null
+}

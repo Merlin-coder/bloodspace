@@ -1,0 +1,53 @@
+.Filter-Button {
+    padding: 0 7px;
+    height: 42px;
+    margin-bottom: 0;
+    z-index: 999;
+    display: flex;
+    /* right: 0; */
+    position: absolute;
+    box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 30px 0 0 30px;
+    background-color: #004372;
+    background-image: -webkit-linear-gradient(left, #004372, #5489af);
+    border: 0 none;
+    color: #ffffff;
+}
+
+.checkboxLabel {
+    font-size: 0.8rem;
+}
+
+.filterIconButton {
+    position: 'relative !imporatnt';
+}
+
+.filterButtonImg {
+    width: 26px !important;
+}
+
+.filterWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-x: auto;
+}
+
+.filterToolbar {
+    position: fixed;
+    z-index: 9999;
+    padding-right: 0px;
+}
+
+.header {
+    width: 380px !important;
+}
+
+.filterHeader {
+    margin-left: 10;
+    font-size: 1.2rem;
+}
+.closeIcon {
+    color: #ffffff;
+    float: right;
+}

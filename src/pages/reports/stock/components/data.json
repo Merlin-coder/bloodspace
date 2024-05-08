@@ -1,0 +1,70 @@
+{
+    "status": true,
+    "message": "Fetch Successful",
+    "data": [
+        {
+            "deviceUnitCount": 3,
+            "deviceInfo": [
+                {
+                    "_id": "612e1cd7ea986e727df1d6c1",
+                    "name": "Mmatched Fridge"
+                }
+            ],
+            "drawerDetails": [
+                {
+                    "drawerNo": 4,
+                    "unitCount": 3
+                }
+            ]
+        },
+        {
+            "deviceUnitCount": 10,
+            "deviceInfo": [
+                {
+                    "_id": "61309fb567be2141b7b06990",
+                    "name": "Stock Fridge"
+                }
+            ],
+            "drawerDetails": [
+                {
+                    "drawerNo": 2,
+                    "unitCount": 10
+                }
+            ]
+        },
+        {
+            "deviceUnitCount": 2,
+            "deviceInfo": [
+                {
+                    "_id": "61309fef67be2141b7b069ae",
+                    "name": "Remote Fridge"
+                }
+            ],
+            "drawerDetails": [
+                {
+                    "drawerNo": 3,
+                    "unitCount": 2
+                }
+            ]
+        },
+        {
+            "deviceUnitCount": 1,
+            "deviceInfo": [
+                {
+                    "_id": "615aaf422f60851451997afb",
+                    "name": "BOX PARIS"
+                }
+            ],
+            "drawerDetails": [
+                {
+                    "drawerNo": 6,
+                    "unitCount": 1
+                }
+            ]
+        },
+        {
+            "totalUnits": 16
+        }
+    ],
+    "error": null
+}

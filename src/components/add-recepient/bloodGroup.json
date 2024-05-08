@@ -1,0 +1,56 @@
+{
+    "status": true,
+    "data_array": [
+      {
+        "_id": "60191a98b8bded27e4139caa",
+        "desc": "O Positive",
+        "code": "5100"
+      },
+      {
+        "_id": "60191a98b8bded27e4139cab",
+        "desc": "O Negative",
+        "code": "9500"
+      },
+      {
+        "_id": "60191a98b8bded27e4139cac",
+        "desc": "A Negative",
+        "code": "0600"
+      },
+      {
+        "_id": "60191a98b8bded27e4139cad",
+        "desc": "A Positive",
+        "code": "6200"
+      },
+      {
+        "_id": "60191a98b8bded27e4139cae",
+        "desc": "B Positive",
+        "code": "7300"
+      },
+      {
+        "_id": "60191a98b8bded27e4139caf",
+        "desc": "B Negative",
+        "code": "1700"
+      },
+      {
+        "_id": "60191a98b8bded27e4139cag",
+        "desc": "AB Positive",
+        "code": "8400"
+      },
+      {
+        "_id": "60191a98b8bded27e4139cah",
+        "desc": "AB Negative",
+        "code": "2800"
+      },
+      {
+        "_id": "60191a98b8bded27e4139cai",
+        "desc": "Oh Positive",
+        "code": "H600"
+      },
+      {
+        "_id": "60191a98b8bded27e4139caj",
+        "desc": "Oh Negative",
+        "code": "G600"
+      }
+    ],
+    "error": null
+  }

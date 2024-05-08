@@ -1,0 +1,68 @@
+{
+    "data": [
+        {
+            "type": "Product",
+
+            "rule": [
+                {
+                    "typeId": "BS001",
+                    "description": "Red Blood Cells"
+                },
+                {
+                    "typeId": "BS002",
+                    "description": "Platelets"
+                },
+                {
+                    "typeId": "BS003",
+                    "description": "Plasma"
+                },
+                {
+                    "typeId": "BS004",
+                    "description": "Cryoprecipitate"
+                },
+                {
+                    "typeId": "BS005",
+                    "description": "Autologous"
+                }
+            ]
+        },
+        {
+            "type": "Device",
+
+            "rule": [
+                {
+                    "typeId": "BS001",
+                    "description": "RFID Fridge"
+                },
+                {
+                    "typeId": "BS002",
+                    "description": "RFID Freezer"
+                },
+                {
+                    "typeId": "BS003",
+                    "description": "Non RFID Fridge"
+                },
+                {
+                    "typeId": "BS004",
+                    "description": "Non RFID Freezer"
+                },
+                {
+                    "typeId": "BS005",
+                    "description": "Platelets Agitator"
+                },
+                {
+                    "typeId": "BS003",
+                    "description": "Bench top readers"
+                },
+                {
+                    "typeId": "BS004",
+                    "description": "PDA/SmartPHones"
+                },
+                {
+                    "typeId": "BS005",
+                    "description": "Open Shelving System"
+                }
+            ]
+        }
+    ]
+}
